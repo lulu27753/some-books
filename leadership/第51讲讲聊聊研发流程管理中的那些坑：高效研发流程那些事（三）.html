@@ -1,0 +1,134 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第51讲讲聊聊研发流程管理中的那些坑：高效研发流程那些事（三）
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/b5/be/b5f1113bd1246f1e3ca9ea947efcd8be.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>你好，我是箴亚管理顾问公司负责人，同时也是TGO鲲鹏会台北分会学习委员游舒帆，今天想跟大家分享的话题是“高效研发流程的第三步，研发流程管理中最困难的那些事”。</p><p>前两篇文章中我与大家分享了组织架构与研发流程的选型，这两者都是高效流程的基础，<strong>可以让团队做好事(Do thing right)，但却不见得能做对事(Do right thing)。</strong></p><p>我曾在台湾敏捷峰会上分享过一句话，在这里也分享给大家：“如果敏捷走不出技术团队，就不可能真正敏捷”，一样的观念“研发流程如果只着眼于研发工作本身，就不可能真正高效”。因为研发团队不是独立存在的，其本身的工作与外部具有一定的相依性，例如需求、营销、运营、服务等，如果我们不能有效的管理这些事，只会事倍功半。</p><p>本文我将会着重就研发管理过程中最困难的几件事：需求管理、优先级、迭代与交付方式、跨部门沟通与数据驱动等主题与各位分享我的经验与看法。</p><h2>1.需求管理</h2><p>所谓的需求管理，并不是单指整理出需求列表，而是需要对这些需求做有效的管理，让团队能满足老板与客户的期待，所以我也常说需求管理本质上其实是<strong>期待管理</strong>。</p><p>在谈期待管理时，我常常用这张图来跟团队沟通：</p><p><img src="https://static001.geekbang.org/resource/image/e6/b0/e6e297671da82175f6a55111104af6b0.png" alt=""></p><p>我总是问团队：“你们清楚老板想解决什么问题吗？”因为很多时候，项目团队往往只看到有件事得做，而时程已经被压上去了，所以匆匆忙忙的开始项目工作，但却很少花时间去理解这个项目背后的<strong>为什么</strong>。一年下来，做的项目也不少，但却没有几个项目真正解决问题。</p><!-- [[[read_end]]] --><p>如此，老板的需求没有真正被满足，对团队的信任感自然也不会太高，而这样的企业，一般效率也不会太高。</p><p>如果公司的组织架构是属于多阶层式的科层组织，那这个问题会放的更大，老板可能只是想解决一个很简单的问题，但经过层层解读与转达后，最后收到的需求是要做一整套系统。导致原先只要一两周时间就能解决的问题，却往往得拖上半年一年之久。</p><p>要真正做好期待管理，团队必须在承接每个项目时，都往上层去了解源头的问题，这就是所谓的<strong>上游信息</strong>。当团队能真正理解老板与客户的真实期待，并逐一解决时，需求管理这件事才可能真正做好。</p><h2>2.排定优先级</h2><p>排优先级，一直都是件难事，我们如果想在相同的时间内创造出更多的价值，那决定先做什么，不做什么就成了关键点，所以优先级的规则至关重要。过去我们曾经采取过几种排定优先级的方式：</p><p><strong>第一种，权力决</strong>，通俗一点来说，就是由权力大的人来决定，排第一的通常是老板或业务部门最高主管。权力决有另一种变形，那就是让承担该业务的主要负责人来做决定，例如产品经理决定产品优先级，业务主管决定业务需求优先级。权力决的好处是决策者明确，然而缺点是官大不一定学问大，有权力的人，对现场的把握度可能反而是最差的。</p><p><strong>第二种，共识决</strong>，由大家共同决定项目的优先级，严谨一点的甚至会成立一个委员会来定期处理此事，然而就过去经验，如果没有适当的机制来维持客观性，共识决与认可决的背后其实仍是权力决。</p><p><strong>第三种，数据决</strong>，由大家共同协议一个项目价值的运算公式，例如能带来多少业绩、改善多少服务满意度、提升多少用户增长或留存率、降低多少人事成本等。每个项目都会被算出一个权重，然后依此权重值进行所有项目的排序。这个做法的好处是客观，所有参数都是经过讨论后得到的共识，缺点则是对项目价值的计算不会一开始就很精准，必须经过一次又一次的修正后才会越来越准。</p><p>过去这些年来，一般种况下我是倾向使用数据决，如果过程遭遇争议，便辅以权力决或共识决。</p><h2>3.迭代与交付方式</h2><p>如本文开头所述，如果研发团队能将视线从团队内移往团队外，并面对真正的问题，那我们应该会把重点放在快速迭代，创造价值，而不该单单着眼于开发迭代，这句话的意思是“解决问题，不必总是仰赖技术”。</p><p>专业人士因为拥有一身绝活，所以思考问题时总想着运用专业来解决问题，技术人在面对问题时也时常会想用技术来解决，然而有许多事情其实可以靠流程解、人工解、沟通解，不见得总是得仰赖技术。<strong>过去在带领团队时，我给了团队绕路解、临时解、根本解几个规则，让他们在规划与思考时能有依归。</strong></p><p>问题发生的当下，依循处理问题的三段式方法，一定要先能提供一个绕路解，也就是workaround，但身为研发人员，我们都很清楚workaround不代表问题被解决，如果不根本解决问题就会累积技术债。所以我们还是要从根本来解决此问题，但如果根本解的时间太长，用户无法忍受，你就要提供一个临时解来缓和用户的痛苦，不能根除也要先能止痛。</p><p>这样的做法，基本上能同时考虑到技术与运营两方，在内部讨论时很容易取得共识。</p><p>而面对需求，我们也强调三段式方法，如果有个需求可以每月创造2亿的营收，但完整做完需要花4个月的时间，我们会将这个需求细拆，找出其中相对有价值的部分先做，可能只花1周的时间，就能达到20%效益；紧接着在4周内再推出第二个版本，这个版本已经能创造60%效益；最后再推出根本解，实现完整的需求。</p><p>当我们着眼于更快的创造价值时，迭代的方式与周期便可能有多种方法，而三段式方法是我们过去用过的，效率非常好的一种方法。</p><p>“解决问题，不必总是仰赖技术”这个观念我们也在持续推广到研发部门外，让大家了解不是凡事都得靠系统，如果时间真的急迫，但研发部门暂时排不出资源，我们也会从专业角度提出其他建议方案。</p><p>过去产品团队曾提出一个很棒的产品点子，在早期规划时产品经理与设计团队对于功能产生诸多歧异，并且技术团队做了初步评估，认为要完成这个功能最少需要四个月的时间，我们就这样僵持在会议室内。</p><p>此时有位同仁提出了一个很好的建议。<strong>他说可以找客服部门合作，请他们找40位客户，并告诉客户我们将提供一项新服务，邀请他们抢先体验。而初期，便由客服部门同仁通过人工来服务客户。</strong></p><p>我当下觉得这个建议可行，便去找客服主管讨论此事，她听完后觉得很不错，虽然会增加一部份工作量，但能协助产品部门更快的把好的产品功能产出，这些投入非常值得。</p><p>人工处理的好处是调整效率高，早上客户反映有状况的地方，下午就可以修正，这种效率是技术做不到的。这个人工服务的时间大概维持了一个半月左右，过程中流程调整了多次，服务内容也修正了好几次。我们可以思考，如果是交由系统来迭代，我们需要花多少时间才能迭代出这个结果呢？</p><p>不过，虽然人工迭代的效率高，但人工毕竟无法处理大批量的工作，这部分还是要交由系统去处理，然而有效结合人工与系统，将可能创造最高的迭代效率。</p><h2>4.跨部门沟通</h2><p>在我过去经验中，技术主管最常求助于我的问题有二：第一个是向上管理问题，不知道如何有效的跟老板沟通；第二个则是横向的跨部门沟通问题，彼此之间KPI不同，目标不同，讨论时常谈不到一个点上。</p><p>其实上述两个问题的解决方法是一样的，都是要掌握上游信息，解决上游问题，我说服团队成员学习向上管理，运用的是本文前头提到的，不断去追问 <strong>“为什么”</strong> ，只有掌握了为什么，才能知道自己做的事情到底对不对。</p><p>而我用来说服团队做好横向沟通则会辅以一个故事：“如果今天你住在河川下游，河川的上游住了另外一群人，上游这群人每天都会在河里倾倒垃圾，所以位居下游的你，要不没有干净的水好用，要不就要喝脏水，此时你会怎么做？”</p><p>“我会搬到他的上游去。”“那他也会继续搬到你上游，互相伤害。”<br>
+“我到上游去将河道分成两条路线。”“好方法，但工程浩大。”<br>
+“我会去劝导他们不要这样。”“一开始有用，两天后可能又故态萌发了。”</p><p>通常经过一轮讨论后，大多会得出这个答案：“我去帮他们建立垃圾处理机制”。不管我提问的对象是什么背景，这个简单的答案通常都不会在一开始就出现，原因很简单——<strong>我们都认为那是对方的责任</strong>。所以我们会直觉的绕开对方的责任圈，我们只在圈外打转，顶多作柔性劝导，而不愿直接有效的帮对方解决问题。</p><p>我常灌输大家一个观念，如果我们的上游出问题，不论他是没能力、没资源或是不愿意解决，问题就是在那，如果不帮他解决，我自己就得蒙受其害。这种情况下，那件事不再是别人的事，而是我们的事。当所有部门都理解了这个观念，都能协助上游解决问题，并给下游干净的水源，那跨部门沟通便不再是问题了。</p><p>当决策、运营与开发都在正确的组织架构、流程上，而上下、横向之间的沟通都没有阻碍时，研发流程才真正实现了高效。</p><p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt=""></p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/92/76/e64acb7d.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">二分之一</span>
+                            </div>
+                            <div class="bd">非常落地的观点，如果上游出现问题，下游怎么努力正确高效的做事，都是无济于事。 <br></div>
+                            <span class="time">2018-08-08 17:01</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/b4/4a/27aba93f.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">大润</span>
+                            </div>
+                            <div class="bd">上游下游高效做对事。 <br></div>
+                            <span class="time">2018-12-11 07:55</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/b9/5a/695f67f8.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">追</span>
+                            </div>
+                            <div class="bd">难得几期的精品，学习！给游老师赞！ <br></div>
+                            <span class="time">2018-11-18 18:47</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Jade</span>
+                            </div>
+                            <div class="bd">作者描述切中研发要害，并把原因分析透彻，还给出实战落地的方案和经验，值得学习和体会运用！ <br></div>
+                            <span class="time">2018-07-12 08:54</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

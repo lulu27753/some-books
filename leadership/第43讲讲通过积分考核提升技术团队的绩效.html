@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第43讲讲通过积分考核提升技术团队的绩效
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/72/8b/72a492b906297523750b3de01a99c58b.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>你好，我是一维科技CTO杨立东，今天我想跟大家分享的话题是“如何通过积分制，更合理有效的考核技术团队。”</p><p>技术团队考核一向是个大难题，合理的考核机制加上奖励制度，能极大激发团队成员的热情，提升团队效率，而不合理的考核机制，却往往会造成团队缺乏热情，高手离职、庸人留下的严重后果。今天，我就想跟大家分享一个综合了不同考核方法优点的方法——积分制。</p><p>在聊积分制之前，我想先说一下，为什么我认为“任职资格标准”和“OKR”这两种人力资源方法并不适合作为技术团队的考核方法。</p><h2>1.任职资格标准——技术人员的晋升通道</h2><p>很多公司已经实施了任职资格标准，通过任职资格标准给技术员工进行评级，让技术人员在公司内有明确的晋升通道，解决的是员工持续发展的问题。而技术管理者可以根据不同的级别设置不同的薪资范围，一旦员工通过评估达到了相应的级别，就应该主动给这个员工加薪到这个级别的薪酬范围。这样员工才能有动力持续不断的努力达到更高的级别。</p><p>但是，任职资格标准更像一个门派武功或者修真秘籍，用于长时间的筛选这个门派的核心骨干，在更高层面上，通过不断招募新人和让每一个人在这个标准下不断的晋级两种方式来保持技术团队的搭配合理性。</p><p>因此，虽然这种方法对员工有一定的激励作用，但却不足以用来刺激员工或团队提升效率。因为每人起点不一样，有的员工想半年晋一级，有的员工觉得两年晋一级就不错呢。</p><!-- [[[read_end]]] --><h2>2.OKR——聚焦员工和团队的工具</h2><p>技术团队的工作大多是多目标的，特别是如果你服务的对象是企业客户或产品经理，他们会毫无节操的给你们团队设定目标。这些无聊的需求和目标足以让技术团队抓狂，但如果实施了OKR，将会缓解掉这些矛盾。</p><p>我们可以给团队设定相对单一的目标（O），可以是进度，也可以是这期迭代要完成的功能和产品特性。而在这个目标下最多分解不超过3个关键结果（KR）。对于团队中的个人也是一样，设定与团队相一致的目标和关键结果，这样才能让团队聚焦到最重要的工作中去。</p><p>那为什么OKR不适合做考核呢？因为在实际操作中，有人喜欢挑战，KR设得高却可能得不到高分，有人保守，KR设的很低，不需要努力都能达到。如果把OKR作为考核工具，必然结果是每个人都去设定没有挑战的目标，这非常不利于团队的激励，也偏离了OKR管理的初衷。</p><p>既然任职资格和OKR都不适合做考核工具，什么才是适合团队的考核方法呢。我们都耳熟能详的绩效考核方法包括：360度考核法，BSC平衡记分卡，KPI法等等。我们不去评价哪种方法的好坏，因为不同的组织和公司文化适用不同的方法。下面我想跟大家介绍的这种方法是综合了不同考核方法的结果，积分制。</p><h2>首先来看项目积分的设定</h2><p>积分制适合于项目型组织，在这个组织里，一切都可以转化为不同类型的项目。管理层首先要对项目进行重要性排序或者打分。根据项目的规模，这个活动可以每个季度执行一次，也可以每个月执行一次。与此同时管理层还需要给每个项目设定1-3个量化的目标，为目标设定卓越线和及格线。</p><p><img src="https://static001.geekbang.org/resource/image/52/51/527e4d6c0408c831544dc748ce8ceb51.png" alt=""></p><p>如果一个项目目标都达到卓越，那么最终每个成员的项目得分都是满分。例如，参与“盘古”项目的成员，项目上线后1个月内统计数据显示产品7日留存率提升到了39.7%，崩溃率降到了0.19%，那么所有参与该项目的成员都能拿到项目分的满分5分。</p><h2>接着来看个人积分的评定</h2><p>项目得分如果参考量化标准，是比较容易打分的，但个人打分是一件十分困难的事情。作为技术管理者，这个时候就到了体现你智慧的时刻，你可以把打分的权利完全授权给团队，让他们根据对目标的贡献度互相进行打分。你可以给定一个总分数和两条打分原则：1.不能均分；2.按照每人对目标的贡献度进行打分。</p><p>总分的范围为团队人数×项目系数，而项目系数从1-5，越早上线的项目系数越大，从而激励团队尽早完成项目和上线使用。如果项目周期3个月，系数可以如下表。其他项目的系数根据项目周期可以类比。</p><p><img src="https://static001.geekbang.org/resource/image/5c/5c/5c41cc95dbe1e200b1ff94bdc738785c.png" alt=""></p><p>还是以“盘古”项目为例，项目提前2周上线，那么项目系数为4，同时项目人数10人，那么我们可以设定团队的总分为10×4=40分，这40分分给团队让团队进行自己打分，个人最多5分，最少1分。这个打分过程由于不能平均，每个人又都按对目标的贡献进行打分，所以会相对公平一些。如果你在这个项目中得到了5分，那么你在这个项目的期间段个人积分就是项目分×个人分，也就是5×5=25分；如果你的得分只有3，那么你该项目的个人积分就只有3×5=15分。这个方法将会大大拉开不同成员之间的差距，起到更好的激励效果。</p><h2>积分季度排名和年底排名</h2><p>不同的公司可以按照以上的规则进行季度排名和年底最终排名，根据自身的经营情况可以按季度发放奖金，也可以年底统一发放。出于诸多因素的考虑，我还是建议全年排名和计算发放。那么问题来了，不同的积分该发多少奖金呢？</p><p>首先，年初管理层应该根据预测的业绩设置一个奖金包，这个奖金包就是发放的基础。奖金包是否独立于年底双薪取决于你们的招聘制度，如果公司不愁招人，完全可以忽略双薪，直接定奖金包。如果招聘环节招人就困难，那么奖金包应该区分于年底双薪而独立设定。既然是奖金包，最少也要有技术团队2倍工资作为起点才有意义，如果太少，什么考核方法也起不到激励作用。</p><p>其次，奖金倍数的计算是根据员工积分进行的，积分的导向就是尽量拉开差距，不搞平均主义。可以设定积分排名前20%的人按4-8倍系数发放奖金，后20%的人不发奖金，中间60%的人能拿到1-2倍系数奖金。在这种体制下，如果你月薪20000，排名第一，就可以拿到20000×8=160000年终奖金。</p><p>需要注意的是，中层经理不参与积分，如果要考核中层，可以参考360度考核法。</p><p>最后，需要在试用第1年后汇总员工的建议，并根据反馈将以上的考核方案形成制度，然后通过人力资源部和CTO两个渠道下发给员工。我们不难发现，积分考核综合了KPI和OKR，鼓励做有价值的项目，鼓励在项目中有卓越的和目标相关的表现，同时还导向项目及早上线。</p><h2>最后来说一下实施积分制的阻碍</h2><p>技术团队考核是行业难题，所以不管实施什么考核方案都是困难重重，阻碍多多。项目的分数评定是需要所有相关的高管共同参与的，即使出来一些没有规划的临时项目，也需要高管们及时给一个项目分数。</p><p>同时员工也不愿意去做那些低分项目，比如：运维，行政，市场等，因为这些项目很难出成绩。对此，需要直接主管配合员工设定合理的量化目标，确保即使项目不容易拿高分，也能让个人在项目表现中拿到高分。</p><p>另外，互联网公司项目的量化目标相对好设定和检验，可以通过第三方数据公司获取相对客观的数据。而对于面向行业进行项目交付的公司，项目的分值大同小异，因为你不太容易界定那个客户重要，哪个客户不重要。</p><p>因此，在这种类型的公司里，个人积分排名不容易拉开，就失去了实施积分制的意义。所以追本溯源，还是要通过项目毛利、项目回款等因素对项目进行不同分值的划分，通过项目预算节约、进度和上线后售后投入等因素对项目给予不同的项目系数。</p><h2>小结</h2><p>作为技术管理者或者CTO，团队效率的提升是首要考虑的事情，当你还是一个小团队时，可以撸起袖子加油干，而随着团队的扩大，就需要建立适当的规则再用公司情怀来激励。团队再大一些，再讲情怀已经没用了，务实一些就需要建立合适的考核制度。</p><p>积分制在项目层面综合了OKR的目标管理的精髓，让团队关注对公司最有价值的项目，同时在个人考核上又遵循了KPI的方式，只不过把KPI的权利下放给团队进行互评，这样更能激励那些自身努力而又关注目标的员工。</p><p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt=""></p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/74/25/9d976034.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">yiluo</span>
+                            </div>
+                            <div class="bd">也许项目不那么重要，可是对人的能力的要求却不低，也许人付出更多才能解决问题。这时候，拿到高分的难度并不比别的项目低。也就是说这个项目本身就决定了这是个高付出低回报的。如何才能让员工愿意去做这一类项目？ <br></div>
+                            <span class="time">2018-08-28 06:02</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/f4/9f/c41c0142.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">nopsky</span>
+                            </div>
+                            <div class="bd">文章里的例子，如果项目系数是4，个人在项目中的表现是5分的话，个人得分应该是4*5=20吧，如果功能需求都比较零碎，又属于快速迭代，那这个项目定目标和积分就按照功能列表来制定吗 <br></div>
+                            <span class="time">2018-06-27 10:57</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/59/ed/88608728.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">黄无由</span>
+                            </div>
+                            <div class="bd">互联网公司项目的量化目标相对好设定和检验，可以通过第三方数据公司获取相对客观的数据。请问第三方数据公司有哪些？ <br></div>
+                            <span class="time">2018-07-25 23:49</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/82/47/d02802f9.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">bulibuli</span>
+                            </div>
+                            <div class="bd">项目积分和个人积分的关系没有看出来 <br></div>
+                            <span class="time">2018-06-27 14:04</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a4/25/30365a63.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">codesve</span>
+                            </div>
+                            <div class="bd">请教两个问题：<br>1、说项目分时，到了卓越线全员得满分，那不及格得几分？及格得几分？<br>2、项目积分与个人积分什么关系？在奖金发放时各什么作用？ <br></div>
+                            <span class="time">2018-06-27 09:00</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

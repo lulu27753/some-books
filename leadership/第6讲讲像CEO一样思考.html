@@ -1,0 +1,208 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第6讲讲像CEO一样思考
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/f3/b9/f3e76dd8b937c9171054fd708f9533b9.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>2008年5月，我加盟京东。实话说，刚到京东的时候，京东技术面临非常多的问题，甚至根本跟不上业务的成长。所以我在京东做的第一件事情，就是准备了5个人的团队，郊区租了一个别墅，决定开始封闭开发，要把京东的网站进行改版。</p>
+<p>我们5人团队连续征战了三个月，把整个网站都重新改写了。正是因为这次改版，京东的用户体验上了一个台阶，成为电商用户体验的标杆。那次改版之后，京东的订单从几千单突破了几万单。</p>
+<p>在公司小的时候，很多事情CTO都必须亲力亲为。但是，当公司逐渐长大，比如2010年京东的技术团队超过了200人，开始做前后台拆分，公司的快速成长对我的能力提出了更高的要求。一年后，京东的前、后台都超过了600人，技术架构必须统一，我以前从来没带过这么大的团队，面临着很大的挑战。</p>
+<p>我意识到，作为一个技术专家，我可能是够格的，但是作为一个CTO，其实我没有准备好。这时我想起这句话，站在CEO的角度思考。</p>
+<p>经过一段波折，2012年底，我把京东整个研发体系重新管理起来。2012年到2015年5月期间，京东的技术又上了一个台阶。</p>
+<p>所以，我想要跟大家分享：CTO要像CEO一样思考。其实有时候做这个决定很难，因为，这意味着你要受委屈，你要放下，你要接受很多挑战，最重要的是，你要坚持。</p>
+<h2>换位思考，CEO眼中的CTO是啥样？</h2>
+<p>一个人最大的问题，是不能很好地认识自己。两个人互相审视，一定会发现一个盲点，即你身上的问题我知道，而你不自知。</p>
+<p>所以作为CTO，一定要360度审视自己：员工对你有什么样的要求，同事对你有什么样的要求，CEO对你有什么样的要求，特别是在他们眼中是怎么看待你的。如果你不把这个问题处理好，你就不是一个合格的CTO。</p>
+<p>那么，CTO怎么才能让别人能理解我们呢？我觉得要反过来换位思考：我们要去理解别人，如果我们很好地理解别人了，就能很好地让别人来理解我们。如果研究我们自己的话，我们是有盲点的，所以我们要把同事、员工、CEO甚至合作伙伴当做镜子，不断地反思。</p>
+<p>通常在CEO眼里，CTO是一个「成本中心」，总是要钱、要人、要资源，还经常出事，这是一个困境。</p>
+<p>一般来说，CTO最大的问题在于沟通。我们习惯用技术思维来沟通，在我们的世界里只有0和1，非黑即白。但是对CEO来讲，每天面临的都是不确定问题，不是靠推导逻辑可以推导出来的。</p>
+<p>尤其做战略选择的时候，只是判断一种可能性，他面临很大的压力，这种思维模式跟技术思维是不一样的。所以我们用技术思维方式去跟CEO、业务部门沟通，就会有很多问题。</p>
+<p>2015年4月，我从京东出来创办了磁云科技，需要解决的最大问题就是：怎么把互联网人才、技术人才和传统行业相结合、对接？</p>
+<p>所以我们技术人要知道，在CEO眼里，我们是什么样子，这样我们才可以去改变自己。</p>
+<h2>CEO如何思考问题？</h2>
+<p>CEO怎么思考问题呢？一般有五个维度：</p>
+<!-- [[[read_end]]] -->
+<p>先说第一个，用户维度。</p>
+<p>一个公司其实就是做两件事：第一件事，把用户吸引过来；第二件事，让用户把钱掏出来，把用户留住，持续掏他腰包。</p>
+<p>所以CTO要研究：我们企业的用户是谁？用户从哪儿来？怎么把用户留住？怎么让用户掏腰包？怎么提升用户的转化率？这里面就有很多学问，如果在用户这个维度，能够给CEO提供一个用户的仪表盘，我们做技术就有了一个新的方向。</p>
+<p>第二个维度是行业的维度。</p>
+<p>我到京东以后，努力学习仓储、配送、供应链、零售等其他业务部门的知识。因为如果你不懂，你是无法跟业务部门沟通的，当然更没法同CEO沟通。</p>
+<p>所以，CTO必须要具备行业知识，不能只讲技术，不能只用技术语言，很多时候你要结合商业和技术。你必须要懂行业，了解行业的本质。</p>
+<p>第三个维度是竞争。</p>
+<p>CTO要对他所在的行业了如指掌，特别是这个行业里有多少企业，处在什么样的地位。要对整个产业画一个地图，把我们企业和企业未来要演变的路径标在上面，这样才能够按照整个行业趋势去做，才能奠定自己的优势。</p>
+<p>我们在京东的大多数时间都在研究对手，研究对手正在干什么，怎么去追求卓越，怎么超越他们。</p>
+<p>第四个维度是生态。</p>
+<p>也就是要关注我们的合作伙伴，特别是那些上门推销卖硬件、软件的，我们要给予足够的重视。要很好地处理这些合作伙伴的关系，CTO的圈子不仅仅要有技术圈，还要有行业的圈子，扩大自己的圈子，找到可以帮你的人。</p>
+<p>第五个维度是要面向未来去思考。</p>
+<p>通常，做技术的为了解决眼前的问题常常疲于奔命。其实，如果CTO能看到公司未来三年、五年的前景，可能会更得心应手。CEO的思维一定是面向未来的。所以怎么把技术的战略跟公司的业务战略结合起来，这也是CTO要研究的课题。</p>
+<h2>沟通的时候，用数据说话</h2>
+<p>在京东，我学到很好的一招：和CEO沟通的时候，尽量用数据说话。包括立项，要说清楚这个项目能给公司带来什么，不是带来技术的先进性，而是跟收入、利润或者用户体验挂钩。如果你这么去做，更能够得到业务部门的支持，也更能够得到CEO的支持。</p>
+<p>用数据说话也意味着，每个技术团队的成长可能都有三个阶段。</p>
+<p>第一个阶段，技术跟随业务。业务跑得很快，技术跟在后面，业务部门可能不满意，但是要通过技术能力的提升去满足业务的要求。</p>
+<p>第二个阶段，技术同业务肩并肩。这个阶段需要用数据说话。在京东我们成立了一个大数据部门，对每个业务部门制定3~5个指标，每个核心指标包括100~300个小指标。每个月都会做月度经营会，各个部门PK这些指标，通过指标的PK，各个部门业务就可以提升。</p>
+<p>也就是说，企业发展一定有一个业务验证到规模化的阶段，而规模化的时候就需要精细化，精细化的时候就需要数据说话。</p>
+<p>我在京东的时候，曾给强东总做了一个仪表盘，打开手机对公司的经营情况一目了然，非常清楚哪个库房出问题了，哪里打包拥堵了，我们会用三种颜色来标记业务的状态：黄色警告，绿色正常，红色报警。</p>
+<p>尽管2014年京东要上市，2013年强东总到哥伦比亚大学学习去了，但是不要紧，虽然有这么远的距离，他通过这个仪表盘，对公司的运营了如指掌。</p>
+<p>第三个阶段，通过技术来引领整个公司的发展。在京东一路走来，我认为技术部门一定要换一个思路：要跟业务部门做伙伴，要帮助业务部门成功。公司一般是业务部门立项，立项一定会带上研发部门。如果我们有这样一个心态，去帮助别人成功，顺带成就我们自己，在内部就能获得很多支持。</p>
+<p>所以在京东研发部发展的过程中，组织结构一直在变化。以前京东是一个职能化的结构，包括产品部、研发部、测试部、运维部，后来分了很多研发部。比如，采销部门有研发部，物流部门有研发部，财务部门也有研发部。</p>
+<p>其实，当研发人员达到几千人的时候、是最需要做业务研发闭环的。研发人员同业务在一起，业务、研发、运维、运营都在一起，这样响应的速度是最快的；业务的目标就是研发的目标，这样会更有成效。</p>
+<p>所以公司的组织结构也是CEO、CTO们要考虑的一个问题，如何调整以适应公司的发展。甚至每一项技术的引进、每一个项目的设立，都要回到数据上去。看看对公司带来怎样的贡献，和哪个部门有利益关系，和哪个部门去合作。</p>
+<h2>当家才知柴米油盐贵</h2>
+<p>最后说说我自己成为一名CEO之后的一些感悟。</p>
+<p>说实话，变化还是挺大的，比如做CTO的时候，当一门新的技术出来的时候，就会深入下去，可以亲自动手，现在就比较难做到了。我能做到的是搭一个平台，让这些牛人团结起来，在那个技术方向上能够深入下去，并且我让他们随时把进展的情况给我分享，我就能够跟上这个技术发展的步伐。</p>
+<p>当你从CTO到CEO位置的时候，你需要有勇气来承认技术上不如CTO了，但是要保持对技术的好奇心，要跟踪技术的趋势，同时要尽量花多一点时间跟他们在一起。</p>
+<p>另一个方面，技术现在进步非常快，但是技术怎么转化成生产力？怎么去商业变现？这是我考虑更多的问题，怎么从新技术，或者新趋势里面找到商业机会，这方面我往往很敏感。我当CTO的时候，我感觉有个框框把我框住了，那可能是企业战略或者CEO要求你要这么干，我做CEO的时候，我发现没有了框框，有一种天高任鸟飞，海阔凭鱼越的感觉，这种感觉能够让我抓住更多的机会。</p>
+<p>在磁云科技助力产业转型升级的过程中，我发现真正制约企业发展的瓶颈是资金和效率，磁云科技因此逐渐明确了科技赋能产业升级的思路，成为一家以区块链为核心的科技金融公司。</p>
+<p>2016年，磁云率先布局区块链的场景应用；2018年，磁云聚焦区块链＋供应链金融，发布了磁云唐票产品，基于自有区块链核心技术，将行业上下游的账期资产实现了数字化和信用化，从而实现了数字资产的切分、流转和融通。</p>
+<p>你当了家之后，你才知道柴米油盐贵，当你成了CEO，公司的生存发展就是头等大事。而且CEO承担的压力是很大的，很多人都在关注你，我当CEO之后，抗压能力更高了，对自己的要求也更高了。</p>
+<p><em><strong>作者简介</strong></em></p>
+<p>李大学，磁云科技董事长兼CEO、京东集团终身荣誉技术顾问。中国互联网+实战团发起人，正和岛互联网+部落酋长。曾担任天极网CTO、京东集团高级副总裁，主管技术研发体系。在京东期间，带领京东研发团队从不到30人发展到近5000人，通过技术驱动，实现了京东业务一万倍的成长。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/ee/d2/7024431c.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">探索无止境</span>
+                            </div>
+                            <div class="bd">关于京东的改版，当时这三个月5个人的团队是怎么一个规划，中间有没有遇到一些什么跟预期不一样的东西，希望有这方面的分享，收获价值会更大，感谢！ <br></div>
+                            <span class="time">2018-04-24 22:05</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/8e/c0/7e70b689.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Lee</span>
+                            </div>
+                            <div class="bd">这五个人如果不是一个磨合很好的团队那么可能就没有这么高的效率，领导人能力很大程度决定了这个事情成败 <br></div>
+                            <span class="time">2018-04-28 09:11</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/68/f8/7d6f7f8d.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">陌上花开</span>
+                            </div>
+                            <div class="bd">作者的封闭式开发厉害了。为什么同样是封闭式开发，效果差那么远呢 😂 <br></div>
+                            <span class="time">2018-04-24 21:23</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">spark</span>
+                            </div>
+                            <div class="bd">希望能有一些比较细的点。比如某个项目，如何规划，如何布局，开始的考虑，后期的结果，是否有超预期或者没有达成目标的情况？具体什么原因？如何改进？ <br></div>
+                            <span class="time">2018-04-26 15:20</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9a/0b/0b6fa6d1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Erik</span>
+                            </div>
+                            <div class="bd">确立技术领导力，在团队初创时，亲力亲为很重要 <br></div>
+                            <span class="time">2018-05-30 00:15</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/ee/cf/c863d6c1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">😂</span>
+                            </div>
+                            <div class="bd">成为了CEO了，难怪要像CEO一样思考。想想我小时候在农田里干活的时候已经像程序员一样思考了呢 <br></div>
+                            <span class="time">2018-04-25 21:12</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

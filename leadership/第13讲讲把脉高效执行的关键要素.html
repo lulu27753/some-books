@@ -1,0 +1,272 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第13讲讲把脉高效执行的关键要素
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/a4/54/a475241488b7140c651d58f846ad9654.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>曾经有个公司的高管跟我说，“竞争对手家的团队”天天加班到很晚，于是也想让自己团队实施996工作制，问我怎么看。</p>
+<p>我问他，希望通过996来达成什么目的？他一时语塞。</p>
+<p>我其实挺理解他的感受，他希望事情能够做得更快，团队更有干劲，产出更有效率，让整个公司跑起来，至少比竞争对手跑的要快。我也理解他为什么会语塞，在创始人眼里，创业公司就是要热火朝天啊，就是要996啊，就是要比竞争对手更努力啊，这还用问吗，至于要达成什么目的……没仔细想！</p>
+<p>但我还是要问，因为996终究只是手段，而手段必定需要为某个特定目的服务，目的还不明确的时候，手段的有效性是无法评判的。我们靠“理所当然”的常识做决策，往往达不到我们想要的效果，甚至事与愿违，唯一的效果就是阶段性的自我安慰。</p>
+<p>高效执行，本身也并不是目的，而是达成特定目的的手段。因此，当我们探讨如何打造高效执行团队的时候，就不能只谈论“执行”本身。那么，要谈论哪些内容呢？</p>
+<h2>什么是高效执行</h2>
+<p>为了避免我的个人狭隘，我做了一个公开小调研，当提及“高效执行”的时候，大家第一印象是什么？回复我的有一线员工，有经理层，也有创业者，集中在下面这些词句：</p>
+<p>“令行禁止、不拖延，军队”</p>
+<p>“多做少说、决定干了就干，别讨论了”</p>
+<p>“发奖金、扣工资”</p>
+<p>“实施996 997”</p>
+<p>“红色性格”（热情、奔放有力量）</p>
+<p>“理解沟通”</p>
+<p>“时间管理”</p>
+<p>“项目管理、过程控制”</p>
+<p>“目标明确、收益明确”</p>
+<p>……</p>
+<p>看到这些反馈，我的内心是崩溃的：即便是背景相对一致的朋友圈，大家对“高效执行”的理解都这么大差异，探讨这个话题是多么有挑战的一件事啊。</p>
+<p>好在，人类有一项特异功能是其它动物所不具备的，那就是使用隐喻去提炼问题的核心。于是，我们也借用一个简化了的管理模型：把执行一项任务，看做是把一架马车驾驶到特定目的地，他们都是要带着队伍去达成某个目标。所谓“高效执行”，就变成了如何尽快地到达目的地；而管理者，此时就变成了一名马车夫，他能否快速到底目的地，大体取决于3个关键因素：</p>
+<p><span class="orange">1)每匹马用多大力气拉车。</span></p>
+<p><span class="orange">2)多匹马是否步调一致，且往一个方向走。</span></p>
+<p><span class="orange">3)马车是否在有效地朝着目的地方向前进。</span></p>
+<!-- [[[read_end]]] -->
+<p>用一个近似公式来表示是：</p>
+<p>路程</p>
+<p><span class="orange">—》速度x时长</span></p>
+<p><span class="orange">—》马车动力x方向有效度x时长</span></p>
+<p><span class="orange">—》单马动力x步调一致性x方向有效性x时长</span></p>
+<p><img src="https://static001.geekbang.org/resource/image/13/0a/134b3d594b4e7586566971920c37ea0a.png" alt="" /></p>
+<p>对应到团队管理和任务执行中，就是这样三个问题：</p>
+<p><span class="orange">1)每位成员的个体能力和努力的意愿。即，个体动力。</span></p>
+<p><span class="orange">2)成员间的组织结构是否合理，协作的节奏是否一致。即，协作水平。</span></p>
+<p><span class="orange">3)大家是否在朝着一个稳定的目标努力。即，目标清晰度/方向有效性。</span></p>
+<p>对应的近似公式是：</p>
+<p><span class="orange">绩效</span></p>
+<p><span class="orange">—》效率x时长</span></p>
+<p><span class="orange">—》团队合力x方向有效度x时长</span></p>
+<p><span class="orange">—》个体动力x协作水平x方向有效性x时长</span></p>
+<p>可见，每个公司都希望拥有的高执行力，除了时长这个“简单粗暴”的因素外，个体动力（能力x意愿）、协作水平（默契x机制）、方向有效性（目标清晰），是三个重要的着眼点，我们分别来探讨下。</p>
+<h2>个体动力和员工激励</h2>
+<p>我们先来看个体动力。一匹马能出多大力，取决于它的实力，以及使用实力的意愿，即个体动力=实力x意愿，对应到员工就是：能力x意愿。</p>
+<p>个体实力的提升，功夫在平时的积累，其提升的方式也各有神通，我们不展开讨论。而意愿的激发，却可以是立即起效的，所以我们看到大部分的管理者都在意愿的激发上做文章，比如发奖金、扣工资等，这就是我们经常说的员工激励。</p>
+<p>员工激励是个很大的话题，值得我们关注的是，目前职场上正在经历从驱动力2.0到3.0的转变，即从胡萝卜加大棒的外部奖惩驱动，过渡到以提升自驱力为特征的自主投入驱动，能够发挥优势，以及工作的目标感、成长感、意义感成为激励的重要手段，在员工激励的话题中，我们再展开来探讨。</p>
+<h2>协作水平和团队合力</h2>
+<p>是不是每匹马都尽力去拉车了，车就一定跑得快呢？</p>
+<p>其实未必，如果几匹马用力的方向不一致，车有可能是不会动的；即便车辆设计非常好，马匹不会出现用力方向不一致的情况，几匹马的步调如果不一致，车速也不是最优。因此，所有马匹是否形成有效的合力，这才是决定车速的最终力量。</p>
+<p>团队合力亦是如此，组织架构是否让团队成员往同一个方向努力，以及大家工作节奏是否协调一致，也决定着团队的产出是否高效。</p>
+<p>当然，在团队中，两个员工出现往相反方向努力的情况并不常见，但是团队每位成员对一项任务的优先级有不同的理解，却非常普遍。在A手上是第一重要的工作，在上下游团队中的B手上未必是，此时信息同步和整体协调就显得尤为重要，那么，我们是否拥有有效沟通的机制呢？只是靠人的主动性，肯定漏洞百出。</p>
+<h2>目标清晰度和方向感</h2>
+<p>驾驶马车的方向感，其实就是一个团队的目标感。大家也许会问，目标设定是规划的范畴，和高效执行有什么关系？我想说的是，脱离目标来谈执行，这恰恰是最普遍存在的问题，这个问题至少会引发了三个不良后果。</p>
+<p><span class="orange">第一是激励失效。</span>如果你和一线员工有着顺畅的沟通通道，不难发现引发他们强烈抱怨和失去动力的一个重要原因就是需求变化太快，导致手头上的工作任务频繁切换，带来三个主要的负面影响。</p>
+<p>1）	工作反复切换，之前的讨论、评估、设计、开发都变成了沉没成本，员工的挫败感不断累积，而成就感很少。</p>
+<p>2）	时间越来越紧，挑战越来越大，员工不得不承担更大的工作压力和强度，引发员工焦虑和负面情绪。</p>
+<p>3）	员工认为管理层没有想清楚，甚至是质疑管理层的能力，对公司和团队降低信任，甚至丧失信心。</p>
+<p>清晰的目标，本身就是激励，目标缺失的团队和员工，是很难有效激励的。如果大家还有疑惑，你可以盘点下自己过往取得的那些最得意的成绩，回顾一下自己曾经有过的“心流”体验，你不难发现这些好的体验，都有一个共同特点，就是当时的目标非常明确，方向感非常好。</p>
+<p><span class="orange">第二是协作失调。</span>明确而认知一致的目标，对于团队所有成员保持统一的工作步调的意义，是非常显而易见的。相反，目标不一致的情况下，让员工保持良好的节奏和状态就变成了奢望。</p>
+<p>除了对步调和节奏的影响，对于多任务优先级的判断，也便没有了最核心的依据，此时要想在沟通中达成一致意见，沟通成本非常高，所以才有人反馈高效执行的第一反应就是“多做少说、决定干了就干，别讨论了”、“理解沟通”，换句话说，低效率的沟通也是执行的一大障碍，而目标不清晰必然会导致低效率沟通。</p>
+<p><span class="orange">第三是忙乱无效。</span>高效执行，除了速度快，还得有效，所谓有效就是往正确的方向前进，即，离目标要越来越近。</p>
+<p>快速执行的现象有两类：一类是看上去很忙；另外一类是真的忙得很有效，其区别，就在于核心目标的达成度。如果目标不清晰，就属于“瞎忙”，这种状态是不健康的。</p>
+<p>从以上三个负面影响来看，目标和方向感的不清晰是高效执行的大敌。而这个问题却很普遍地存在很多公司中，却往往不被管理层重视，更常见的情况是——</p>
+<p>老板说，我们目标一直都很清晰啊，不就是……，说了多少遍了！</p>
+<p>管理者说，这也不是我能左右的……，而且这个时代也没法做长远规划……</p>
+<p>员工说，方向总是变来变去……</p>
+<p>归结起来就是，要么没目标，要么就是目标不清晰，要么是没有被有效解读和传达。</p>
+<p>管理者除了要明确目标，还必须把握该目标的核心衡量指标，即，这个任务最核心的指标是进度（赶时间）、质量（稳定可靠）还是效果（功能完善），只有这个问题明确了，在碰到突发情况的时候，我们才能把握住决策方向，优先满足最核心的期待，让结果更加有效。</p>
+<h2>结语</h2>
+<p>总而言之，打造一个高效执行的团队，是一个系统工程，不能只是靠简单堆时间去达到所谓的“高效执行”，因为堆时间可能会让其它要素打折扣，比如员工意愿。当我们去诊断一个团队的执行力问题时，也不能头痛医头脚痛医脚，而要通盘考虑这些要素，从而找到高效执行的最大提升空间。</p>
+<p>最后总结一下，高效执行的要素就是：</p>
+<p><span class="orange">个体动力x协作水平x方向有效性x时长</span></p>
+<p><span class="orange">（能力x意愿）x（默契x机制）x（目标x沟通）x时长</span></p>
+<p><em><strong>作者简介</strong></em></p>
+<p>刘建国，<a href="http://tgo.geekbang.org">TGO鲲鹏会</a>北京分会会员。果见管理工作坊创始人，聚焦于技术背景准经理和新经理的培养。埃里克森国际教练学院教练、国家认证职业生涯规划师、清华大学高级工商管理硕士（EMBA）。</p>
+<p>12年互联网从业经验，完整经历从一线员工、一线经理到150人独立部门负责人的全过程，培养出40-50位一二线经理。其中在百度9年，负责过百度知道、百度passport、百度开放平台、百度app1.0、百度手机助手1.0、移动搜索等产品研发和团队管理，百度最佳经理人；创业3年，负责过天使轮到C轮各阶段互联网公司的CTO体系团队。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/89/d9/abb7bfe3.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">郝志强</span>
+                            </div>
+                            <div class="bd">高效执行的要素就是：<br><br>个体动力 x 协作水平 x 方向有效性 x 时长<br><br>（能力 x 意愿）x（默契 x 机制）x（目标 x 沟通）x 时长 <br></div>
+                            <span class="time">2018-05-07 07:43</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/d3/0e/d2f9dd72.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">孙梦华🙄🙄</span>
+                            </div>
+                            <div class="bd">明确目标，把握该目标的核心衡量指标，即进度（赶时间）、质量（稳定可靠）还是效果（功能完善）；并且保证所有参加的员工目标一致。<br>优先满足最核心的期待，保证好钢用在刀刃上～ <br></div>
+                            <span class="time">2018-05-07 23:06</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/7b/a9/2262940b.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Scofield</span>
+                            </div>
+                            <div class="bd">感同身受，系统的把我们现在面临的问题总结出来，非常好，赞一个 <br></div>
+                            <span class="time">2018-09-05 14:48</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/8a/dd/70637f43.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">姚君June</span>
+                            </div>
+                            <div class="bd">高效执行的要素可以理解为知愿能行为模式。目标明确，目标一致；动力充足，外因激励+找到内在驱动力；察觉是否有能力短板，通过团队内部能力互补+技能培训，最终打造高效能团队。 <br></div>
+                            <span class="time">2018-06-23 16:50</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/9f/18/07d88ed7.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">碰上这样的朋友</span>
+                            </div>
+                            <div class="bd">老大 给你点个赞 <br></div>
+                            <span class="time">2018-05-11 21:09</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/12/24/70/4e7751f3.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">_____He</span>
+                            </div>
+                            <div class="bd">让员工在项目中获得成就感很重要，这是技术领导者的一部分职责 <br></div>
+                            <span class="time">2018-08-06 09:00</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/58/ea/7117e614.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Faris</span>
+                            </div>
+                            <div class="bd">目标目标目标，点赞 <br></div>
+                            <span class="time">2018-08-01 08:39</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/89/cb/dbf1e84c.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Hua</span>
+                            </div>
+                            <div class="bd">说到需求变跟导致的挫败感，个人觉得也应该是管理层的挫败感。1。对业务不熟悉导致错误需求 2。项目分解不合理 3。不会及时响应变更表示团队没有领会到敏捷开发的真谛。 作为下属研发团队，如果感受到了挫败感，只能表示这些人不热爱编程，没有与时俱进不知如何积极的人面对改变。为什么会消极？扣你工资吗？还是不让你研发新产品了，我觉得lz有必要思考一下。别的都是比较总结性的东西。 <br></div>
+                            <span class="time">2018-06-28 23:07</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9a/0b/0b6fa6d1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Erik</span>
+                            </div>
+                            <div class="bd">激励失效特别有感触 <br></div>
+                            <span class="time">2018-06-08 10:27</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/60/3e/74077d88.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Eric</span>
+                            </div>
+                            <div class="bd">高效执行的要素就是：<br><br>个体动力 x 协作水平 x 方向有效性 x 时长<br><br>（能力 x 意愿）x（默契 x 机制）x（目标 x 沟通）x 时长 <br></div>
+                            <span class="time">2018-05-26 09:08</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

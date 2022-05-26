@@ -1,0 +1,176 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第18讲讲做到这四点，团队必定飞速成长
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/19/62/193b6b27a2b9883cf0499d70d33b4f62.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>如何激发团队的斗志？</p>
+<p>如何促进团队成员的成长？</p>
+<p>如何帮助团队成员设定工作目标？</p>
+<p>我相信这几个问题一定反复困扰着每一个团队的牵头人。方法很多、理论也不少，从KPI到OKR，每个都是很多企业和团队实践的经验，但从我十多年的团队管理经验来看，这些方法和理论其实有一个共同的内核：摸清禀赋、认清目标、扫清障碍、列清奖惩。</p>
+<h2>摸清禀赋，力求人和事的匹配</h2>
+<p>摸清禀赋是第一步，我相信孙子兵法的“知己知彼，百战不殆”是众人皆知的古训。西汉晁错的《上书言兵事》也提到“ 卒不可用，以其将予敌也； 将不知兵，以其主予敌也”， 所以作为团队牵头人，摸清每一个团队成员的性格、能力甚至是健康和家庭状况，是帮助团队成员成长的第一步。摸清了成员的禀赋，也更有利于团队的分工，帮助成员找到合适的角色和位置。</p>
+<p>一般来说，我们总能将一位同事从几个角度来评价，不管是 MBTI、九型人格还是近年流行的DISC，其实都在做同样的事情——摸清团队成员的禀赋。</p>
+<p>我们也可以加入更多的角度来评估我们的团队成员，思维方式更有广度还是更有深度、主动创新还是按部就班、聪明异常或是勤奋过人 、坚韧专注还是勇于探索，擅长哪些领域，熟悉哪些工具和技能。团队所从事的具体每项工作和事务，同样也可以从几个角度来分类，就像我们不太会赶鸭子上架，让一个设计师去写数据库的代码一样，“专注执行不容错型”和“勇于创新敢于试错型”显然也需要不太一样的成员。</p>
+<p>工作的特性匹配了成员的特质，至少可以避免时间、人力和资源错配导致的浪费，也为团队的组建、短板的补强提供了方向。</p>
+<p>讲到人的禀赋和事的特性匹配，这里还要提醒一下各位技术团队的牵头人，一定要和HR同事密切沟通，是不是要招人、招多少人、招什么样角色的人、补强短板还是建立优势壁垒、是不是需要空降一个牵头人，都需要和HR同事有统一的推演和规划；也千万不要轻视职位要求定义、面试筛选、背景调查的流程，哪怕是内部转岗最好也需要经过面试的过程。面试、背调就是一次全面摸清禀赋的过程。一千个人眼中有一千个哈姆雷特，HR同事的视角和经验，也是很好的禀赋评价或分类的角度。</p>
+<h2>认清目标，规划合理的成长路径</h2>
+<p>如果说摸清禀赋更多的指成员的现状，那么认清目标讲的就是筹备未来。<br />
+未来当然也包含两层含义：成为什么样的人，做成什么样的事。事是团队乃至企业的目标，要由团队成员来执行；成为什么样的人，就是个人的成长目标，来自于工作、学习乃至生活中的磨练。</p>
+<p>大家都大致了解“一万小时理论”，但是往往忽略了这里的“一万小时”指的是刻意实践所累积的时间，而不仅仅是打发消磨的时间。看一万小时电视剧并不能让人变成著名演员、编剧或导演，甚至连成为影评家的概率都很低，因为那不是刻意的实践而仅仅是打发时间。工作显然是一段带有刻意训练特征的时间消耗，虽然很多工作是出于谋生养家，但是花同样的时间、赚同样的钱，人总是希望做一些有助于成长目标、让你自己获得成就感的刻意训练。</p>
+<p>和团队成员一起深入沟通，找到一个既能帮团队做成事、也能帮助成员个人获得训练积累成长1万小时的目标，显然变成了重中之重。</p>
+<p>找出个人的成长目标一般分三步：找寻榜样，自省差距，分解突破。榜样可以是身边更出色的前辈，也可以是业界的大牛，甚至是几个实例的综合体，自省差距往往也可以和摸清禀赋结合在一起，然后从众多的差距中找到一个相对好入手、好训练、有助于成事的点，进行突破。</p>
+<p>例如，对于一个软件工程师，写代码并调试就是一个带有刻意训练性质的本职工作，降低代码bug严重程度、提高代码和需求匹配度，就是不错的训练目标。突破的了代码质量的成长目标，也许代码中的逻辑严谨性或者代码编写的全局思维就是下一个需要突破的目标。</p>
+<p>关于目标设定，我相信大家也都熟知目标设定的S.M.A.R.T原则。一个好目标一定具有：S特定领域、M衡量方法、A实现路径、R所需资源、T时间范围 这五个要素。</p>
+<p>这里我尤其想提醒大家近年来管理学界的一些补充：R 字母更有指导意义的解释是达成目标所需要的资源 Resources ，这一观点在2013年 由John Lawler 和 Andy Bilson 提出 ，显然这个解释优于之前和实现路径 (Achievable) 含义相近的若干单词“Relevant 相关的” 或“Reliability可靠性”或 “Realistic 现实的” 或“Reasonable合理性”。</p>
+<p>一个团队成员除了自身的能力、经验和人脉这些内部潜力外，最大的外部资源往往来自于团队其他成员的互补、来自于团队牵头人更丰富的阅历、经验和人脉。</p>
+<h2>扫清障碍，扶上马还得送一程</h2>
+<p>认清了人和事的大目标、分解逐个突破的小目标后，我们已经能够和团队成员一起设计出一些可行的路径，也许这条路径并不完善，还需要不断修正，但是至少这时，团队成员可算是在成长快速道路上入了门。接下来团队的牵头人，要做的一件事就是帮助成员一起扫清路径上的各种障碍，俗语也叫“扶上马还得送一程”。</p>
+<!-- [[[read_end]]] -->
+<p>送一程干的事情无外乎卸包袱、供粮草、 共填坑、调节奏、把方向之类。</p>
+<p>合理的分配任务，尽量排除偏离个人成长目标（但是可能适合其他成员）、又耗费工时的工作事项称为卸包袱；</p>
+<p>提供攻坚所需的关键性的数据、硬件甚至是经费称之为供粮草；</p>
+<p>遇到困难和棘手问题，作为牵头人自己不能退缩，不能甩锅，甚至要敢于背锅，授权成员去试错，要和成员一起战斗，这才是共填坑；</p>
+<p>因为企业的经营环境、团队的工作环境和个人的生活环境会不断变化，所以往往大目标不变的情况下，小目标却需要因应调整，及时调整前进的步点和节奏，才能不为环境所累；</p>
+<p>环境的重压之下，节奏不断变换，团队牵头人还需要提醒个人成长目标和做事的初衷，避免为了成事而疲于奔命，一起把握既定的大方向。</p>
+<p>在成长之路上提速的整个过程，也和驾驶手动挡汽车起步提速一样，踩离合（也就是卸包袱）、给油（也就是供粮草）都必不可少，坡起时还要借助刹车（也就是共填坑），即使右手不断换挡（也就是调节奏），也要紧握方向盘目视前方（也就是把方向）。</p>
+<p>另外不得不提一句，如果团队的牵头人，并不享受带领团队成长“扶上马送一程”的过程 ，也不认为成为一个好的团队牵头人是自己的成长目标，那么请大胆的告诉你的领导，你更适合技术专家、科学家、架构师的角色，请婉拒团队的管理者、牵头人的任命，请不要把你自己的刻意训练时间累计在你不想要、不享受的目标上。</p>
+<h2>列清奖惩，用惩罚警示，用奖励提速</h2>
+<p>对于快速成长的团队，奖惩也要列清，尤其要避免功过相抵的糊涂帐。团队成员和团队牵头人一起设定的目标，既是承诺也是对赌；甚至因为团队成员的小目标和团队的大目标往往天然交织在一起，一个人的工作瑕疵就会拖累其他成员乃至整个团队；因此奖惩不仅仅是物质上的得失，更多是一种仪式，奖是仪式上的凯歌，惩是仪式上的警钟。</p>
+<p>在对具体的成员进行惩罚之前，请各位团队牵头人先自我检讨三个问题：</p>
+<p><span class="orange">我是不是足够了解这位犯错的成员，包括这位成员最近的健康、家庭等外部环境变化？</span></p>
+<p><span class="orange">我有没有错配人和事，让成员从事了既不胜任亦不享受的工作？</span></p>
+<p><span class="orange">我有没有帮助成员找到明确的目标和清晰的路径，并在路径上做好保障？</span></p>
+<p>如果这三个问题中，有任何一个问题的答案是否定的，那么请先检讨你自己的工作缺位。甚至对成员个人的惩罚有时也不需要处罚金钱，也不需要记过存档，而仅仅需要的是集体复盘、自我检讨，然后修订目标，制定改进计划，让成员知耻而后勇、避免再犯。牛奶已经因为错误而泼出，与其纠结如何惩罚既成事实，不如把亡羊补牢、改进未来作为一种惩罚方式。</p>
+<p>关于奖励，也请告别庸俗的纯物质奖励，金钱固然好，但是并不一定是团队成员需要的，因此和HR一起，设计更有温度的奖品，会让成员更有归属感和求胜欲。</p>
+<p>我个人和我们公司非常不推荐长期执行闭关冲刺这种不健康的、错将时长当效率的工时制度，但是在团队成功的完成短期闭关冲刺的交付目标后，集体休个小长假就是团队最需要的奖励；将奖品奖金和团队的谢意，直接寄送给获奖成员的家人，让军功章的另一半一起分享成员的成就，让成员在家庭获得认同，也是一种有温度的奖励；忽略年龄和资历的桎梏，给予充分的授权，允许年轻的杰出成员，独立带领一支年轻的新团队，给予年轻人更重的责任和更深的信任，也是很好的奖励；帮助成员完成梦想，哪怕是资助成员停薪续保去留学深造、去创业，更是一种有温度也有气度的奖励。</p>
+<p>人在工作和生活中主动或被动的扮演很多的角色，但是趋利避害、改善境遇是共通的发自人性的需求。如果说“己所不欲，勿施于人”是一种不作为，那么“人己共欲，施之援手”就是一种共赢的主动选择。带领团队快速成长，靠的一定不是鞭子，而是每个成员各自所需、且无法拒绝的果子；找到那颗果子、那棵果树，规划前往果园之路，这条路才会是有助于成员成长的高速公路。</p>
+<p><em><strong>作者简介</strong></em></p>
+<p>洪倍，AdMaster创始人兼首席技术官，<a href="http://tgo.geekbang.org">TGO鲲鹏会</a>上海分会会员。毕业于上海交通大学，于2006年与闫曌共同创立AdMaster。拥有超过13年大数据产品构架、挖掘、处理和创新技术研发经验。带领AdMaster研发团队，架构了国内领先的涵盖广告监播、社交聆听、电商渠道及移动应用等多种数据源的营销大数据采集和处理集群。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a4/25/30365a63.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">codesve</span>
+                            </div>
+                            <div class="bd">文章很具体、很实在。👍 <br>不禁让我反思：<br>* 我在工作中，没有完全摸清成员的情况，特别是其个人与家庭情况；<br>* 对于目标，也只关注了公司的业务目标，而没有更多地关注成员的个人成长目标；<br>* “送一程”这块，我可能比较注重“共填坑”，其它几项还需要加强；<br>* 关于奖惩，一是没有列清，二是没有与公司深入探讨，争取到这部分更大的权限。 <br></div>
+                            <span class="time">2018-05-15 09:12</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/12/20/fa/6ebaacb0.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">一马行千里</span>
+                            </div>
+                            <div class="bd">1. 了解成员背景，包括能力？最近状态甚至家庭情况等各方面；<br>2. 制定合适、明确的目标，规划好达到目标的路径；<br>3. 扫清障碍，定期跟踪、辅导；<br>4. 明确奖惩制度。 <br></div>
+                            <span class="time">2018-08-25 08:45</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9a/0b/0b6fa6d1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Erik</span>
+                            </div>
+                            <div class="bd">健康和家庭情况很重要，也很难把握，在公司层面如何平衡是一种挑战，公平和友好始终存在着对立 <br></div>
+                            <span class="time">2018-06-16 16:14</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/b2/10/a6debd39.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">章洁</span>
+                            </div>
+                            <div class="bd">永恒的话题，特别是找对刻意练习的方向。 <br></div>
+                            <span class="time">2018-05-15 14:16</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

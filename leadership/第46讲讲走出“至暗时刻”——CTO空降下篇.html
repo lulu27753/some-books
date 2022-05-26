@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第46讲讲走出“至暗时刻”——CTO空降下篇
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/13/0f/13680b92c6c26a2d30eccf81df82c60f.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>你好，我是易建科技技术副总裁钟忻，昨天跟大家分享了CTO空降前该如何做好准备，今天接着上一篇，探讨当CTO迈出了职业生涯关键的一步，空降到新的平台之后，该如何一步步开展工作，迅速发挥作用，得到公司上下的认可呢？我想无非是从做事和做人两方面来看。</p><h2>做事</h2><p>首先说说做事，CTO可能需要经历如下三个阶段，才能到达比较理想的状态。</p><h3>1.蜜月期——提理念，找突破</h3><p>一般CTO愿意接受新的工作机会，双方肯定都是比较认可的，而且无论是公司管理层还是CTO本人都是见过大风大浪、比较理性的，所以我认为蜜月期一般来说都不会有太大问题。</p><p>蜜月期，公司管理层一般都会要求CTO对产品团队等做系统的梳理和规划，提出新的想法和见解。而对于经验丰富的CTO来说，通过迅速深入一线沟通了解情况，并凭借之前的经验和良好的技术视野，在短期内拿出一份系统性和实操性都比较强的方案，并得到管理层的认可，一般都不是太大问题。加上双方刚刚接触，展现的更多的还是好的一面，对对方也都会比较宽容，因此，蜜月期通常都能很好的渡过。</p><p>另外，CTO入职本身就是一个比较高调的事情，新来的技术高管无疑会吸引很多的目光，所以保持低调，少说多做，反倒是比较理想的选择。在面上取得系统性的突破肯定不是一日之功，但是在一些点上迅速发现问题做出亮点还是很有可能的。比如迅速引入或者落地一些工具和方法，改进一些流程和制度，提升团队士气；或者聚焦在一些系统的稳定性问题上，迅速攻克技术难点，扭转技术团队的被动局面。对于技术功底扎实、经验老道的CTO来说，这些都不是太大的问题。</p><!-- [[[read_end]]] --><h3>2.考验期——苦干实干，牢底坐穿</h3><p>我有几位师兄弟，之前都担任过行业领头羊或是上市公司的CTO或者技术VP，大家在讨论空降这个话题的时候，都比较认同第二个阶段对CTO是比较严峻的考验。我相信大部分技术高管，无论是客观还是主观的原因，没能顺利空降，问题也都是爆发在这个阶段。</p><p>其中一位有一句名言：“我所见过的技术高管，蜜月期以后还能活下来的，都是搞过封闭开发的”。无论这句话有多少主观成分，还是充分体现了CTO这个职位面临的压力和挑战。有的是在工作深入开展以后，发现跟公司管理层在管理理念、做事风格等多方面存在很大差异。有的是在取得一些工作进展后，让老板的期望值越来越高，承担的工作也越来越多，到达一个瓶颈以后，很容易出现顾此失彼、捉襟见肘的局面。</p><p>我本人从技术总监到技术高管，一个很深的体会就是，虽然都是独当一面的技术负责人，但总监跟CTO有一个本质的不同。总监的上司往往还是技术口的，而CTO的上司显然是业务口，很有可能完全不懂技术，所以沟通的成本和获得认可的难度无疑是几何级数的差别。</p><p>那么对于CTO来说，在这种局面下，出色的抗压能力无疑是必须的。在跟公司管理层无法很好的达成一致的情况下，我认为还是尽量求同存异，不要有太多其他想法，毕竟老板在业务方面的理解和行业经验的积累上，一般来说还是远强于CTO本人的，先按照他的想法来执行，再通过实践来检验成果。</p><p>另外在被动的局面下，超出预期无疑是非常困难的，但我认为这也是不容逃避的。一方面要顶住压力，另一方面要在老板不重视的方向和事情上，迅速做出成绩，超出预期，这无疑是走出困境的最佳选择。</p><p>当然每个人的能力和精力都是有限的，事情太多铁打的金刚也扛不住。在适当的情况下，也可以学着say no。把精力聚焦在重要的事情上，抓大放小。这样虽然在一定时期会遭到一些质疑，但在长期看无疑是明智的，最终理性的老板还是会认可和接纳的。</p><p>总的来说，所谓“封闭开发”这样的做法不一定是必须的，但是拿出态度来，打破自己之前的认知局限，真心实意的苦干实干，熬过“黑暗时刻”，光明总会到来。最终或多或少都会有一些突破和成果，公司的管理层也肯定能够看到CTO和团队的努力付出的。</p><h3>3.稳定期——全情投入，放眼未来</h3><p>熬过考验期，进入第三个阶段，无疑是值得高兴的。这说明CTO跟公司管理层有了充分的了解，适应了公司的文化，能力也得到了认可，可以更多的按照自己的想法来大展拳脚。往往这个时候，团队也比较成型了，沟通也更顺畅了，所以有时候会有些放松和麻痹大意。</p><p>这个时候，作为CTO，应该有居安思危的想法。自己原有的思维格局和体系，可能很难突破了，因此，一方面要多关注团队成员能力的提升，给他们更多的指导；另外一方面则可以把眼光投向外部，多借鉴同行的先进经验，在框架性体系化上面打打基础，为迎接新的挑战做好准备。</p><h2>做人</h2><p>说完做事，再来说说做人，CTO本身就是一个重要的管理岗，跟方方面面都要打交道，因此，能得到各方的接纳对开展工作也是非常关键的。主要分为对上、对中和对下三方面：</p><h3>1.老板——如何做好向上管理</h3><p>取得老板的认可接纳，得到充分的授权，这是CTO做好工作的先决条件，这个道理大家应该都是非常明白的。在初来乍到的情况下，一定要密切的跟老板沟通，加快磨合的速度，搞清楚老板的真实想法。在上面的段落里也提到了，尽量求同存异，按照老板的想法执行，并且力求超出预期。</p><h3>2.同事——团结一切可以团结的力量</h3><p>跟平级的同事打交道，获得他们的支持也是很重要的，比如市场营销团队、财务人力等职能部门。CTO在这个时候更需要的是领导力、沟通能力，而不是管理能力。</p><p>在具体操作中，我认为掌握两个要素比较关键。一个是取得共识，只要大家利益一致，对公司全局有好处，大家就能够达成一致，这样就好合作。另外一个是互惠互利，相互帮助。多换位思考，看看对方的难处是什么，在边界比较模糊的时候，尽量多做一点，毕竟你的最终的目标还是为了结果的达成，这个才是最重要的。</p><h3>3.下属——如何让下属信服</h3><p>空降还有一个蛮有意思的地方，就是怎么获得下属的支持。让大家忘记“前任”，迅速的接纳你，这样你的想法才能落地执行，这也是CTO工作的根本所在。作为CTO，在技术能力、经验和视野上肯定是远强于自己下属的，让他们在技术上信服一般不是难事。但怎么让原本不认识你的一大群人一下子能很好的执行你的想法，还是需要下功夫的。</p><p>我自己总结下属有三种类型。一种是听话型，这类下属本身人就比较nice，跟谁都能很好的配合，在工作中也能够很快感觉到他对工作的热情和执行力，那么迅速委以重任就可以了。</p><p>第二种是合作型，他们不会像第一类那么自来熟，但他们会比较有想法，也有能力。这类下属从管理者的角度，跟他充分的沟通，给他施展的空间，让他感受到你对他的支持和认可，那么也是比较好合作的。</p><p>第三种就有点让人头疼了，权且叫反动型吧。由于种种原因，不配合你的工作，甚至原来在团队就是刺头。这种一般来说还是先尝试按第二种情况来处理，如果确实有能力也能够合作，那不妨多包容。但在某些情况下，为了维护权威性，在得到管理层的充分授权后，也可以考虑采取极端措施。</p><p>在这里我分享一个有意思的事情，我之前有一名下属，脾气比较火爆，个性也有点封闭，做事风格跟我平常倡导的也完全不同，但是执行力非常强，因为一些历史原因和观念的差异，空降之后双方合作一直磕磕绊绊，好在工作也能往前开展。</p><p>直到我离开公司后，有一次特别意外，他突然给我发微信对我表示感谢，我还挺感动的。因为我在管理上，一直提倡要成就别人来成就自己，也给过他不少帮助，他在时过境迁之后自己也意识到了这一点。CTO作为管理者，应该坚持做对的事情，时间会证明一切。<br>
+&nbsp;<br>
+到此为止，CTO空降的上下篇就要划上句号了，文章结尾把电影“至暗时刻”中丘吉尔的名言送给诸位：Success is not final, failure is not fatal, it is the courage to continue that counts。恰逢技术盛世，唯自信与勇气不可辜负，加油吧，少年们。</p><p><em><strong>作者简介</strong></em></p><p>钟忻，易建科技技术副总裁兼云服务事业群总经理，<a href="http://tgo.geekbang.org">TGO鲲鹏会</a>北京分会会员。2003年清华大学自动化硕士毕业。曾在Turbolinux、IBM、Intel等多家IT公司担任资深软件工程师。13年底到16年初担任乐视云平台高级总监，主导了乐视IaaS、PaaS平台从无到有的全过程。目前负责易建科技上千人研发团队的技术体系的搭建，以及整个海航集团的IDC和基础云平台的产品研发、运营和市场开拓。</p><p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt=""></p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Jade</span>
+                            </div>
+                            <div class="bd">全篇没有废话套话，说的都实实在在的能落地的大实话，干货纯度100%，值得体会和学习！ <br></div>
+                            <span class="time">2018-07-03 09:04</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/9f/aa/92050642.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">叶顺平</span>
+                            </div>
+                            <div class="bd">这篇不错 <br></div>
+                            <span class="time">2018-07-05 00:52</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/92/7f/e531ea14.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">栗景树</span>
+                            </div>
+                            <div class="bd">技术从业者，多数情况下都比较简单直接，领导只要有技术实力，做人有品德，做事有底线，下属都能较好合作。但是，真遇到过关系户领导，因为没有技术领导力，瞎指挥，不能服众。他们感觉下面除了溜须拍马的那几个其他的都是刺头，但要全开了没人干活了。不愿站队拉帮结派的技术骨干逐步都另谋高就了，好好的业务都散了。 <br></div>
+                            <span class="time">2018-09-16 18:48</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

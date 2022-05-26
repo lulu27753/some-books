@@ -1,0 +1,116 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第75讲讲刘俊强：一本正经教你如何毁掉一场技术演讲
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/12/e4/12ba7c85a53775e1cba5bac1252189e4.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>你好，我是腾讯云资深架构师、TGO会员刘俊强，有着10+年以上的互联网开发经验，8年以上的技术管理经验。今天想从反面出发，跟大家分享如何做好一场技术演讲。</p><p>演讲（Presentation）是一种常见的经验分享交流以及个人品牌提升方式，回顾这些年，我做过 QCon 讲师、在线课程讲师，在企业内外做过各种技术及管理的演讲分享，因此，最近思考总结了如何做好一场技术演讲的关键要素，以帮助更多的同学做好自己的技术演讲。</p><p>本文不会直接告诉你如何做好一场技术演讲，而是要开个脑洞，假设你自己要毁掉平行宇宙中另一个自我的技术演讲，那么你到底要怎么做才能达到目的呢？不急，下面我们慢慢来捣乱。</p><p>通常我们将一个技术演讲划分为三个阶段，即内容准备阶段、演讲前准备阶段以及正式演讲阶段，那么秉着不捣乱不甘心的态度，接下来就教你怎么在这三个阶段毁掉自己的技术演讲，想到要做坏事内心还有点小激动呢。</p><h2>内容准备阶段：含糊定位、结构混乱</h2><p>在我们决定做一场技术演讲时，我们对于该演讲的目的应该是明确的，一般来说，一场技术演讲的目的分为以下几类：</p><ol>
+<li>告知（To Inform）：产品技术新特性或版本发布的告知等，例如《Spring Boot 2.0 特性介绍及未来路线图》、《Istio 1.0 正式版发布》；</li>
+<li>教育（To Educate）：阐明一门新技术或框架的使用方法等，例如教会工程师《基于 Spring Boot 2.0来构建Web应用程序》、《基于无服务函数计算来构建数据流分析系统》、《基于 Kotlin 协程实现异步编程》；</li>
+<li>说服（To Convince）：说服决策者来批准或使用自己的技术提案，抑或是研究预算等，例如《基于Spark的数据分析系统的投入产出分析》、《基于 Service Mesh 的海量容器管理平台实践》、《腾讯织云智能监控实践》；</li>
+<li>行动引导（To Lead to Action）：针对已有解决方案引导人员进行行动实践等，例如《微服务改造实施规划》、《XX项目性能优化专项》；</li>
+</ol><!-- [[[read_end]]] --><p>不难看出，做一个技术演讲成功的前提是目的明确，知道这场技术演讲主要要解决什么问题，那么，<strong>毁掉演讲的根基便是不去弄清楚这场演讲的主要目的</strong>，让另一个自我仅知道要完成一个技术演讲，但不知道做这个演讲的目的何在，或是引导另一个自我弄错这场技术演讲的目的，本来是"说服"类的咱给他引导成"告知"类的，想想台下听众一脸懵的表情，是不是心里已经开始暗爽了？</p><p>捣乱完了技术演讲目的，下面该在内容准备这块继续使坏了，关于内容准备的要点，我将其总结成“演讲的4W2H”：</p><ol>
+<li>What：演讲要讲什么内容，内容的主题主旨是什么样的；</li>
+<li>Why：为什么需要这场技术演讲，能够解决什么样的困惑或问题；</li>
+<li>Who：演讲的受众是什么样的人群，是资深工程师还是技术管理者；</li>
+<li>Where：演讲的地点在哪里，是公司内部分享还是付费大会，对应的受众人数有多少；</li>
+<li>How：准备如何完成这场演讲，例如采用什么演讲风格、演讲辅助工具以及演讲结构；</li>
+<li>How Long：演讲的时长是多久，15分钟还是30分钟、40分钟？</li>
+</ol><p>在“演讲的4W2H”中，Why是核心冲突或需求，通常来源于工程实践或行业中具体遇到的问题，抑或是大家期望了解的行业趋势，简单来说这个 Why 便是这场演讲能够带来的核心价值。</p><p>而 Who、Where及How Long 是演讲的限制因素或条件，每场演讲都有客观存在的限制性因素，演讲者必须在这些限制条件下进行内容准备和演讲呈现。</p><p>最后的 What和How 便是演讲者主要发挥才华的地方，如何有效地梳理内容结构并用合适的技巧来进行呈现便是演讲者的功力体现。</p><p>作为带脑子、有技巧的演讲捣乱者，咱们就不期望在核心价值和客观限制条件，也就是 Why、Who、Where、How Long 这些方向上误导另一个自己了，相信另一个自己的智商也没那么容易被误导。那要捣乱的突破点就是 What 和 How 了，在这里我整理了一些有效的捣乱手段，一般情况下，几条就可以成功毁掉一场技术演讲，要是能够全部命中，那这场技术演讲也就万劫不复了：</p><ol>
+<li>演讲要呈现的内容过多，不进行收敛导致主题不止一个；</li>
+<li>不明所以的幻灯片排版，如满屏代码、多种字体颜色混用、不使用图片、使用与内容无关的图片、整张幻灯片全部是文字以及花哨的幻灯片设计等；</li>
+<li>混乱的幻灯片结构，如迷之跳跃的幻灯片、内容不做分区或内容分区后不具有联系等；</li>
+<li>直奔主题讲内容，不准备开场和结尾，开场可以帮助观众明确演讲主题，结尾可以帮助观众回顾演讲主题。</li>
+</ol><p>另外，咱们更不能让另一个自己知道一些成功演讲的通用技巧或是公式，来帮助他进行结构组织，例如“演讲结构组织的 OIBCC”：</p><ul>
+<li><strong>O</strong>pening：获取观众的注意力；</li>
+<li><strong>I</strong>ntroduction：为何会有这场演讲；</li>
+<li><strong>B</strong>ody：演讲的主要内容及观点，通过统计分析、图表、示例及故事等手法来支持演讲的主要观点；</li>
+<li><strong>C</strong>onclusion：回顾主要内容及观点；</li>
+<li><strong>C</strong>lose：与开场呼应的一句话，让观众有强烈记忆点。</li>
+</ul><p>总结一下，从内容准备的各个方面来看，要毁掉一个演讲的要点就是：<strong>随意的演讲结构、不明所以的幻灯片结构与排版</strong>。比如我们可以在一场演讲中放飞自我地进行表达，不管是否与主题相关，也不管是否符合表达逻辑；视觉和排版上也拿来主义，这一页是苹果风格，下一页就跳到word艺术字风格……这样，内容准备阶段就可以毁得彻彻底底了。</p><h2>演讲前准备阶段：不充分的排练</h2><p>前面花了不少篇幅来介绍怎么在内容准备阶段进行捣乱，确实，充分的内容准备是一场技术演讲成功的主要因素，基本可以占到60%的比重，那么毁掉了前面的60%是否足够呢？</p><p>不达目的不罢休、捣乱就要彻底的心态告诉咱们，只毁掉内容准备阶段是不够的，一定要继续祸害这场演讲。而<strong>在演讲前准备阶段毁掉一场演讲的方式就是不充分的排练，最好是完全不排练</strong>。</p><p>在演讲中，演讲者需要通过各种技巧进行阐述来让观众接受他想传达的内容。知名的传播理论家 Albert Mehrabian 教授研究出了“7/38/55法则”，他总结，你传递的信息或旁人对你的观感主要取决于三个要素：实际言语（内容）占7%，语气（说话的语调、声音的抑扬顿挫等）占38%，肢体语言（手势、表情、仪态等）占55%。</p><p>根据这个法则，咱们要让另一个自己忽略 38/55 这两项，即肢体语言和语气，而是将注意力全部放在只占7%的内容本身上，这样他就会认为内容准备好了就万事大吉了，咱们干坏事也是尊重科学的。</p><p>演讲者排练的主要目的就是让自己在语气和肢体语言上完成肌肉记忆，这样实际演讲时，就不会因为焦虑和紧张造成走形。</p><p>排练的另外一个重要作用在于让自己在时间的把握上更游刃有余，有经验的演讲者一般都会提前将演讲讲义打印出来，进行真实的计时演讲排练，帮助自己修正演讲中不合适的内容结构及表述节奏，并且充分的排练能够帮助演讲者准备更多的素材以便应对不同的演讲状况。</p><h2>正式演讲阶段：照本宣科、忽略反馈</h2><p>终于到了正式演讲阶段了，这个时候怎么来捣乱、毁掉这场演讲呢？<strong>演讲时毁掉演讲很简单，就是照本宣科、不根据现场反馈做灵活调整。</strong></p><p>一定要让另一个自我认识到，为了跟你们这些观众做演讲，哥们已经花了n多时间和心血、脑细胞不知道死了多少来准备内容，接下来我来说，你们好好听就行了，让我来 carry 全场，什么弄清楚观众群体、吸引观众注意力，不存在的。</p><p>通常来说，一场技术演讲要给观众带去新观点、新知识或是新思考方式等，让观众打破原有认知来接受演讲者的内容是有难度的，所以，在正式演讲时，成功的演讲者会根据现场观众的反馈等来调整自己的语速及内容等。</p><p>演讲者需要时刻将注意力放在观众身上，观察观众的反馈，反馈可能是表情、眼神或是动作。根据反馈来判断内容对观众的吸引力以及他们的接受程度，对于他们不感兴趣的地方，演讲者可以灵活跳过以节省时间，而那些他们听不懂的地方，演讲者可以再着重介绍讲解。</p><p>另外，观众的注意力每隔一段时间就会不集中，因此，成功的演讲者一般会在演讲中埋一些耍宝或是有冲击力的观点，来保持观众的注意力始终在自己身上。</p><h2>写在最后</h2><p>前面我们说了很多关于毁掉一场技术演讲的方式，简单总结下就是这些要点：</p><ol>
+<li>毁掉演讲的根基便是让自己不清楚这场演讲的主要目的。</li>
+<li>内容准备上毁掉演讲的要点就是随意的演讲结构、不明所以的幻灯片结构与排版。</li>
+<li>在演讲前准备阶段毁掉演讲的方式就是不充分的排练，最好是不排练。</li>
+<li>演讲时毁掉演讲很简单，就是照本宣科、不根据现场反馈做灵活调整。</li>
+</ol><p>本文介绍了如何捣乱毁掉平行宇宙中另一个自己的技术演讲，当然这里是卖个脑洞开个小玩笑，通过反向操作的方式来帮助大家了解如何做好一场技术演讲，哪些问题是要避免的。最后，期望大家都能够在技术演讲上做得越来越棒。</p><h2>作者介绍</h2><p>刘俊强（微信公众号：程序员精进）现任腾讯云资深架构师，曾任迅雷技术总监、某互联网公司技术副总裁，10+年以上互联网开发经验，8年以上技术管理经验。</p><p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt=""></p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

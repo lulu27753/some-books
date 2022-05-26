@@ -1,0 +1,167 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第25讲讲建立有效的员工淘汰机制
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/8d/97/8d1cf48b64c6bb97331a4afc20595d97.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>作为技术管理者，我们要常常梳理团队结构、梯队建设等事项，通过梳理才能更好的认清当下团队的状况，才能为更美好的未来最好准备。</p>
+<p>团队的发展其实与个体一样，只有不断的去突破自己的舒适区，根据实际的变化，放弃那些过时的认知，才能不断进步。</p>
+<p>想创建优秀团队，筛选出优秀的员工，淘汰不合适的员工，是一个团队能否健康发展的重要因素。好的员工是企业最大的财富，同理，差劲的员工也能让一个企业陷入万劫不复。</p>
+<p>本文就来聊聊，当你遇到不合适的员工时，该如何合情合理的进行淘汰。</p>
+<h2>那些不同类型的“问题员工”</h2>
+<p>首先，我把“问题员工”分类概括为“既合格，又合适的员工”、“合格，但不合适的员工”、“既不合格，又不合适的员工”、“合适，但不合格的员工”这四种。</p>
+<p>从管理者的角度来看，当然是那些“既合格，又合适的员工”更受青睐，为此往往不惜重金招聘，给以丰厚的福利待遇，委以重任。但是，这种员工毕竟是少数，因此，管理者不应该把太多的精力放在这类员工的身上。</p>
+<p>其次就是“合格，但不合适的员工”，这类员工往往具有职业上的硬技能，但是也许在软技能等其他辅助能力上缺乏潜力。对于这些员工，企业的处理方法应该是人尽其用，把他们所有的知识、技能都应用在工作中，尽力让企业的其他员工都分享他的知识和技能。</p>
+<p>如果他们主动提出要离开，企业不需要着力进行挽留，因为对于当今互联网时代的企业来说，倡导扶持高潜力员工的发展，才是面向未来的有效论调。</p>
+<p>再来说说“既不合格，又不合适的员工”，这类员工既不符合本职工作的技能要求，也不符合企业文化的需要，属于“无法胜任，也无潜力”的两无人员，这样的员工对于企业来说并无价值，基本是需要淘汰的对象。</p>
+<p>最后说说“合适，但不合格的员工”，企业管理者需要把主要精力放在那些“基本胜任，但潜力大”的员工身上。这些员工虽然职业技能有所欠缺，但是他们所具有的良好的学习技能和沟通技能，决定了他们能够通过培训很快弥补这些不足。</p>
+<p>通过以上分析我们发现，问题员工分布的范围比较广泛，技术管理者需认真鉴别，区别对待，发掘问题员工的长处，适当容忍其短处，对其存在的问题适时加以正面引导，真正做到 “用人之长，容人之短”。</p>
+<h2>建立有效的员工淘汰机制</h2>
+<p>一个团队必须建立相应的淘汰机制，人人都有危机感，都有随时被淘汰的可能，才能实现优胜劣汰，保持团队活力的同时，尽可能的保持最大的竞争力。就像是鱼群里的鲶鱼，随时威胁大家的生存，才能保证让大家都动起来。</p>
+<p>在具备有效的员工淘汰机制之前，有哪些问题是我们需要探讨的呢？比如“如何把真正的‘末位’员工剔除出来？“，“到底是从员工的工作质量、工作态度、个人品德、交际能力还是其他方面进行衡量？”或者“谁来评价，才能做到公正合理？”</p>
+<p>可以说，在企业内部建立淘汰机制是必要的，关键是如何做到“有效”，把不符合企业要求的员工进行淘汰，这才是我们应该真正关心的。</p>
+<p>在我看来，要保证“淘汰机制”的有效性，有效的绩效管理体系必须具备对企业的高层管理者（与公司总体绩效挂钩）、中层管理者（偏重本部门绩效的考核）及基层员工（偏重工作本身的考核）等不同的考核体系，最终通过约束与竞争机制促进个人及团队的发展，而考核者和被考核者都应将通过绩效管理手段提高工作绩效作为首要的目标。</p>
+<p>在执行过程中，对于一些比较容易考核的职位，可以考虑用试用期间的业绩及上司的意见，综合考虑新员工的去留。如果是一些技术性较强的，可以通过技术理论和操作两方面进行考核，再综合上司的意见后，由人力资源部决定新员工的去留。</p>
+<p>另外，也可根据员工的综合素质、能力、工作态度等因素，通过换岗、降职、培训的方式进行处理，或者直接淘汰。</p>
+<p>总而言之，建立一套员工淘汰机制是非常必要的，但是，淘汰员工要根据企业自身的特点选择比较适合的方式。</p>
+<h2>如何让员工淘汰更具说服力</h2>
+<p>众所周知，淘汰员工这件事，无论是用人部门，还是人力资源部门，常常煞费苦心，采取各种办法，结果却常常引发被淘汰者的极大不满，甚至引起劳资纠纷。</p>
+<p>为了让这个过程更具有说服力，我觉得需要从“管理环节重视”与“淘汰工作中的原则”两方面进行考虑。</p>
+<!-- [[[read_end]]] -->
+<p>先来谈谈，我对“管理环节重视”的主要认知。</p>
+<p>首先，我们需建立起一套有效的甄选机制，进行有效的人才识别，则可为企业招聘到合适的人才，而无须在日后花费过多的精力进行人员淘汰管理。</p>
+<p>随后待员工入职后，为避免在短短的一个小时的面试过程中，难以对一个人作出全面而综合的考评，应重视试用期间对员工的更进一步的考核，通过员工在试用期间的实际工作表现，综合考评其知识、技能及态度，以更好了解此员工是否胜任本职，从而作出淘汰或留任的决定。</p>
+<p>紧随其后的是绩效考核，通过有针对性的绩效考核制度，实现有效的优胜劣汰，淘汰绩效不佳的员工。但对于许多企业来说，采取生硬的淘汰方式也许过于激进，也可以选择在其合同期满的时候，与员工终止劳动合同，从而达到淘汰的目的。或通过组织架构或业务流程重组时，进行淘汰处理，原来需要两个人完成的工作，现在只需一个人即可，这样，则会对多余的人员进行淘汰。</p>
+<p>所谓“没有原则，不成方圆”，与人力资源同学相比，技术管理者在淘汰员工的过程中应承担主要责任，因为对员工的业绩更有发言权，更具说服力。因此，在淘汰员工的管理工作中，除了管理环节重视之外，还应把握原则。</p>
+<p>在准备淘汰时，须事先搜集好员工的业绩考核数据资料，只有在论据充分的前提下实施淘汰管理，才能使员工能够接受将被淘汰的事实，不致引起员工过激的行为。</p>
+<p>淘汰面谈时，仅对其工作业绩不佳做出评价，不对员工性格，为人处事加以评论，尽量告知员工本人，并不是他能力不够，或本人有问题，只是不适合公司目前提供的工作而已。</p>
+<p>明确其的功过得失，不能全盘否定，任何一个员工都会有所长，有所短，有很多员工业绩低下只是因为他缺乏对自已的职业了解，目前从事的恰恰是自已不擅长的工作，或是因部门内部人际关系没处理好。</p>
+<p>沟通时，避免直来直去，注意说话的语气，用词，管理方式，方法，注意自已的身体、面部等，并注意说话的语气，措词。</p>
+<p>强调“青山不老，绿水长流”的态度，在员工有需要时要提供帮助，千万不能当仇人，因为他们对公司基本上或者全面了解，如果你能想到要帮助他们，他们一旦有机会也会回报你及帮助公司。</p>
+<h2>结语</h2>
+<p>无论对于企业，还是团队，在这个互助互盈的互联网时代中，其本质还是竞争。想要达到一个“你好，我好，大家好”的氛围，只是一个美好的梦想罢了。</p>
+<p>有竞争，就会有淘汰，只不过在这个过程中，我们应当更合理、更有效、 更具原则性。</p>
+<p><em><strong>作者简介</strong></em></p>
+<p>王晔倞，<a href="https://tgo.geekbang.org">TGO鲲鹏会</a>上海分会会员，好买财富平台架构部技术总监。2013 年加入好买财富，在 4 年内亲身经历了公司面向互联网的业务转型与技术变迁，辗转过不同的业务团队，对技术与业务都有深入的了解。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a4/25/30365a63.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">codesve</span>
+                            </div>
+                            <div class="bd">通过建立有效的机制，把“问题员工”找出来 -&gt; 再针对问题员工的不同类型，采取不同的处理措施 -&gt; 对于“末位”员工，进行淘汰管理 -&gt; 为避免纠纷，需要做好“管理”和“淘汰”两个环节的工作。<br><br>“管理”本身是一个长期的“铺垫”工作，在“淘汰”时方显真章。 <br></div>
+                            <span class="time">2018-05-28 09:59</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/ee/cf/c863d6c1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">😂</span>
+                            </div>
+                            <div class="bd">看上去作者去做个HR的leader更合适 <br></div>
+                            <span class="time">2018-07-16 07:21</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTKdcWLjLTJBu1OFpM3TW9shLSMibP2rBaic0cAsrMMibMhXvZ3ZZbEibryT6S3P8JB7bOBs6X9dKvLsicw/132" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Hg</span>
+                            </div>
+                            <div class="bd">老板不想赔偿太多，怎么处理？<br>是这样。<br>如果是我们开人，需要赔n+1；如果是表现不好，只给1左右(就是会少很多)。<br>对于上述的“合格但不合适的”人，硬开，是不是要按前一种赔？但老板想用后一种。<br>难办啊难办 <br></div>
+                            <span class="time">2018-05-30 09:21</span>
+                            
+                            <div class="reply">
+                                <div class="reply-hd"><span>作者回复</span></div>
+                                <p class="reply-content">作者王晔倞回复：<br><br>在我的经验中，这种情况分为两种“试用期”与“正式期”<br><br>1、试用期：<br>1）如何处理：则不需要客气，直接说明原因即可，也不需要任何赔偿<br>2）如何避免：这种情况的发生也许是进公司对于岗位职责的不清晰而引发的，如果试用期为6个月，可采取2个月考核一次的方式，前2个月可安排其做一些验证其技能的工作（甚至可以设定一些无中生有的任务），后2个月可安排其做一些验证其价值观的工作（如承担项目经理，推动与沟通偏多的工作），最后留出1个月，让其重新找工作，这样基本可以达到好合好散的目的。<br><br>2)	正式期：<br>1)	硬开：按照劳动法，肯定是按照N+1的方式来赔偿的，如果对方非常较真，一般情况下无法拿出量化的具体依据来证明。<br>2)	不硬开：可通过谈话、调岗等手段进行，至少让他觉得你们的企业还挺Nice。<br><br>所以我觉得，关键在于试用期的把关，如果无法守住这一关，光想在正式期采取“有利于公司”的方式，既不合理，也不可取。<br><br>如果真的发生了，那就接受吧。</p>
+                                <p class="reply-time">2018-05-30 16:00</p>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

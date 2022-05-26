@@ -1,0 +1,152 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第47讲讲空降领导者平稳落地要做的四道题（上）
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/b0/a3/b021afff78ce18b2e44de17b97736ba3.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>你好，我是饿了么技术创新部高级总监史海峰，今天想跟大家分享的话题是“空降领导者平稳落地要做的四道题”。</p><p>2016年11月底，我从当当离职，入职饿了么，担任当时饿了么北京研发中心的总经理。这种“天上掉下个领导来”的操作方式，职场上俗称“空降”。</p><p>在我入职一年半之后，已经更名为技术创新部的北研团队规模超过90人，负责项目超过20个，并且在2017年9月，从0到1做了新零售行业风口项目“无人便利货架”。目前，团队核心成员稳定，我这次“空降”算是实现了“软着陆”。</p><p>身在职场，难免跳槽。做管理到了一定职级，更难免以领导者角色进入新的组织，当然不一定是跳槽，也可能是在内部转调。我自己空降过，见过、经历过的空降也不少，听说过的行业新闻更多，其中有成功也有失败，比如郭士纳和陆奇，一个让大象跳舞，一个却黯然离场，结果大相径庭。</p><p>那空降到底如何才能顺利着陆呢？带着这个问号，可以展开一系列问题。比如：</p><ol>
+<li>众所周知空降操作难度大，为什么还要空降？</li>
+<li>空降有风险，从公司、团队、自身的角度看，空降的价值在哪里？</li>
+<li>墨菲定律当头，降落过程可能遭遇哪些问题，最糟糕的情况会有多惨？</li>
+<li>工欲善其事必先利其器，需要提前做哪些准备？</li>
+<li>怎样判断自己是否适合空降？</li>
+<li>衡量成败标准是什么？有哪些前提条件？</li>
+<li>落地后要做哪些动作，遇到各种情况如何应对？</li>
+<li>作为空降的团队领导者，该让谁满意？</li>
+</ol><!-- [[[read_end]]] --><p>我将这些问题总结成四条，接下来将寻根溯源抽丝剥茧，一条条进行分析，并分享自己的一点经验。</p><h2>第一道题：空降的目标是什么？</h2><p>如果不是非常必要，无论是公司还是个人，通常不会选择空降。评判空降成败的维度可以有很多方面，但空降目的一定很明确，那就是达成公司对这个职位的预期目标，在此基础之上，才能考虑个人的目标。因此，在空降之前弄清楚该公司为什么需要空降技术领导者是非常重要的。</p><p>空降是自上而下的管理动作，决策者安排空降一定是有某些特定原因的。在某些组织里，为了避免结党营私形成地盘，会存在空降轮岗的普遍机制，但技术团队更关注技术本身，相对涉及利益较少，团队文化也简单，一般不会有太多这方面的顾虑。</p><p>不过，技术团队通常会按照职能或者业务分成很多领域，专业性强，要做好必须精专，一样有隔行如隔山的情况。因此搭建健康的梯队，打造良性的内部晋升机制是技术团队最常态的补缺方式，这种机制也能够激励团队成员，使团队得以有序可持续发展。</p><p>公司需要空降的技术团队领导者，一般出于以下几个原因，而且很可能是多方面综合的结果。</p><h3>1.团队内部没有可胜任的人才，或者提拔有比较大的风险</h3><p>如果团队相对稳定，合格的领导者会安排好自身职位的后备人员，就像美国副总统一样，避免领导者本人成为系统的单点风险。一旦有变动，最稳妥的做法就是内部提拔。然而技术团队中技术好手很多，有领导者潜质可以做好团队管理的人才难求，有时后备力量还不足以能够全面接盘团队当前工作，如果晋升之后掌控不好甚至可能给团队带来二次动荡，因此需要空降。从这点出发，对空降者的能力要求会大大高于后备者，否则也可能引发矛盾。</p><h3>2.公司内部没有合适的可调配资源</h3><p>如果是公司内部其他技术团队有适合的人才，他们对于公司及当前团队的情况都会比较熟悉，因此，内部调配也是一种会优先考虑的操作。但内部调配要看是否可行，如果该领导者自身没有好的后备者，或者对于团队非常重要，调不开，则不如从外部招聘人才，把这种资源空缺的问题，转嫁到行业其他公司，甚至是竞争对手，此消彼长，一举两得。</p><h3>3.组织结构调整或者他人兼任不是最佳选择</h3><p>有些公司会通过组织结构调整的方式，把团队拆分到其他团队，或者合并到另一个大团队中，“从根本上”消灭团队领导空缺的问题。但这种方式也需要避免引入新的问题。如康威定律所述，技术团队的组织结构是由业务形态决定的，自有其领域划分，强行拆分合并，反而会带来结构性的内部问题。还有一种方式是组织结构不变，由他人兼任，这个方式会更可行，但无论如何都要有能Hold住更大规模团队的人选才OK。</p><h3>4.团队问题需要外力解决，外来的和尚好念经</h3><p>每个团队、组织都有自身的问题，有时候内部进行变革，会有更多的阻力，以及局限。此时，引入外力，用新鲜血液带来更多不一样的思考和操作是一个不错的选择。毕竟外来的人员没有包袱，更有活力和魄力，也就是俗话说的，外来的和尚好念经。</p><h3>5.团队需要更强的领导者</h3><p>这是最常见的，也几乎是最主要的原因。技术团队对公司来说是非常宝贵的资产，用好了能创造远超预期的价值，用不好则是巨大浪费。因此团队领导者非常关键，要尽可能胜任，能够快速的融入团队，并带领团队有所产出。</p><p>技术团队领导者时时刻刻都要挂在头顶的就是目标，到新的团队，这一点最最重要了。一定要搞清楚公司对自己的要求是什么，要解决什么问题还是搞定什么项目，有什么是必须拿下的，多长时间内要达成，团队对自己有什么期望等关键信息，越详细越清晰越好，如此才能心中有数。</p><p>技术领导者选择空降，也一定是各方面综合考量之后做出的慎重选择。可能是职业发展天花板，也可能不满足于现状，想跳出舒适区，迎接新挑战，追求更高的成就，也可能是喜欢新公司的味道，跟上级、老板确认过了眼神，大家都找到了对的人。但无论如何都得要达成目标做出成绩，甚至超出预期。</p><p>目标就在前方，有没有信心，有没有底气？迎接挑战的勇气通常来源于对自身能力和目标匹配度的准确认知。这其中有常量，但变量更多，比如各种问题和风险。</p><h2>第二道题：空降会面临什么问题和风险？</h2><p>空降有风险，跳槽需谨慎。既然要空降，就必须清楚空降的难点有哪些。简单来看，包括但不限于熟悉度、人员、公司、团队、目标、产出等诸多方面，可谓问题多多，困难重重。如果只看见表面的光鲜，风险意识不足，疏忽大意很可能开局不利马失前蹄。</p><h3>1.团队陌生，有距离，易产生隔阂</h3><p>不同于自己从0组建或者内部晋升所负责的团队，空降到一个团队，团队成员彼此之间都很熟、很有默契，带头大哥反而是个陌生人，太尴尬了！团队成立的时间越长，老成员越多，这种情况越明显。也就是说，团队的内部凝聚力越强，越有认同感，越难融入其中。</p><h3>2.可能遭遇抵触，发生排异反应</h3><p>新的领导者作为焦点人物，一举一动都会被关注，作为陌生人进入团队，所有人都会“听其言，观其行”审视你评判你，一旦表现不佳引起团队集体反感，后果很严重。每个人对新任领导的感受都是不同的，可能是上升空间被封闭，也可能跟前任感情太好，或者背景不同、认为你技术水平不够、管理不到位，甚至是单纯看你不顺眼，都会形成负面情绪。</p><h3>3.组织文化不熟悉</h3><p>不怕干不了，就怕不知道。每个组织的文化、运行机制都有各自的特点和合理性，而且多数的协调机制都不是白纸黑字明面上的，不知道可能就会闹出大笑话。跨不同行业、不同规模、不同领域的空降，更容易遇到此类问题，比如互联网和传统IT、创业公司和行业巨头、国企和外企。</p><h3>4.团队状态不佳</h3><p>有的团队正处在比较糟糕的状态，人心浮动，情绪敏感，士气低迷，甚至陷入了恶性循环，比如骨干流失，新人没人带感觉难以成长，工作效率非常低，系统经常故障，在公司内部的口碑很差。集体的惯性是很大的，破坏力也强，扭转颓势不易，但必须尽快发现问题根源，越快解决越好，至少不能持续恶化。</p><h3>5.时间窗口窄</h3><p>无论有怎样的问题，只要团队还在，就要有所产出。留给空降领导者的时间不会太多，短则三个月，长则半年，基本就是试用期的长度。另外，技术团队多数面向业务，工作状态、产出成果都要由业务方来评判，业务不满意，头一个要顶雷的就是团队领导。</p><p>今天，我跟大家分享了空降可能会遇到的各种挑战与风险，可能会有泼冷水之嫌，但凡事未虑胜先虑败，提早考虑可能的风险，并采取相应的措施规避，总比空降之后以脸着地要好得多。</p><p>明天，我将跟大家分享空降前的准备以及落地后的具体操作，欢迎继续关注。</p><p><strong>作者简介</strong></p><p>史海峰，贝壳金服 2B2C CTO，<a href="https://tgo.geekbang.org">TGO鲲鹏会</a>北京分会会员。负责总体架构规划、技术规范制定和技术预研推广，善于把握复杂业务需求，提出创新性解决方案，在项目中对系统架构进行持续改造优化。负责技术委员会组织管理工作，发掘最佳实践、推动技术革新，组织内外部技术交流。</p><p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt=""></p>
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9c/74/3f173b64.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Tony</span>
+                            </div>
+                            <div class="bd">空降初的工作压力是以往的三倍 <br></div>
+                            <span class="time">2018-07-09 20:34</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9c/74/3f173b64.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Tony</span>
+                            </div>
+                            <div class="bd">空降初的工作压力是以往的三倍 <br></div>
+                            <span class="time">2018-07-09 20:34</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/28/4f/a094d08a.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">@-@</span>
+                            </div>
+                            <div class="bd">期待明天的！ <br></div>
+                            <span class="time">2018-07-04 21:00</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/42/8b/f33135c7.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Sean</span>
+                            </div>
+                            <div class="bd">分析得很有道理，期待后续！ <br></div>
+                            <span class="time">2018-07-04 20:10</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/51/b1/abb7bfe3.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">水有罔象</span>
+                            </div>
+                            <div class="bd">看来空降兵确实需要一定的勇气和毅力啊。 <br></div>
+                            <span class="time">2018-07-04 19:51</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

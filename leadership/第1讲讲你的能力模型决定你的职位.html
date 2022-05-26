@@ -1,0 +1,357 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第1讲讲你的能力模型决定你的职位
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/50/07/505e3ce0672996879421d45e81492607.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>在投资圈里经常听到这样的话：“CEO和方案都有了，就差个CTO了”。技术人员听了都哈哈一笑，觉得不靠谱。</p>
+<p>但是笑过后，反思这句话，其实无论巨头公司还是初创公司，每个公司都有这个情况，有些公司真的就因为找到了合适的CTO崛起，有的公司因为找错了CTO而走上歧途，也有的CTO因为找错了公司而耽误了自己的时间。</p>
+<p>究竟什么是CTO，一个公司真的需要CTO么？哪些公司的职位对于技术管理者来讲真的是CTO的职位？同样是技术最高负责人，为什么有人叫CTO、有人叫技术总监、技术VP，有人叫首席架构师？他们之间的差别是什么？怎样才能成为一个合格的CTO？</p>
+<p>这些问题，我将通过“CTO核心能力管理”系列文章分享一些自己的思考，也重新定义一下市场上对于上述职位的定义，各位CEO和HR在发布JD的时候重新思考一下，自己需要的是一个CTO还是技术VP、还是技术总监。</p>
+<p>跟各位技术管理者也谈一下自己CTO成长之路的一些感悟，希望可以对大家有所启发，也希望大家多多提意见，让我自己也能更多的向大家学习。</p>
+<p>首先说一个观点，“所有的职位不是别人给你的，而是你自己挣出来的”，一个人在某一个公司一个职位18个月以上，基本上是获得了这个公司合伙人和其他管理者的认可，存在必合理，现存的最高技术负责人：CTO、技术VP、技术总监、首席架构师都是合理的，一个公司最高技术负责人不一定是CTO。</p>
+<p>各职位之间的差异，我从以下技术管理者需要的五个核心能力来区别开：领导力、文化构造能力、人员管理能力、体系搭建能力、技术实力。同样是最高技术负责人，在这五点能力上的强弱决定了最终自己在市场上“挣”出来的职位是什么。</p>
+<p>这篇文章会把这5个技术管理的核心能力进行阐述，然后根据下面的技术核心管理能力模型来对这些职位进行重新定义。后续几篇文章会分享一下如何提高这五方面能力的一些心得和经验。</p>
+<h2>领导力：“成事”的能力</h2>
+<p>领导力的定义有很多，管理大师德鲁克的定义是“领导力能将一个人的愿景提升到更高的目标，将一个人的业绩提高到更高的标准，使一个人能超越自我界限获得更大成就；另一位领导力大师约翰·麦克斯威尔的定义是：领导者是知道方向、指明方向，并沿着这个方向前进的人。</p>
+<p>而我的定义很简单：“成事”的能力，领导力最终是用各种各样的方法、人员、影响力、号召力、决策力将一个事情从0到1的能力，如果把事情做成0.99，都不是领导力的体现。是否对最终结果负责，这也是所有带”O”的职位和不带”O”的职位最大的差别。</p>
+<h2>文化构造能力：“影响意识”的能力</h2>
+<p>文化是人类群体创造并共同享有的物质实体、价值观念、意义体系和行为方式，是人类群体的整个生活状态。对应到技术管理上，就是管理者对于大家意识的影响力，小到对于整个技术团队价值观，公司技术氛围、行为方式和状态的构造和影响能力，大到对于国内技术生态甚至国际技术生态的影响力。</p>
+<p>文化对于公司和部门管理非常重要，它是无形之手，决定了你团队的价值观是什么，你的公司能不能招聘到高级的技术人员，在我们日常流程和管理者眼睛看不到的地方，员工是怎样工作的。</p>
+<p>是否可以打造一个合适公司发展的技术文化，是否可以构造一个开放、透明的技术氛围，是否有能力建立一个MTP（Massive Transformation Purpose）能让每个技术人员深入人心，能在技术圈内影响到志同道合的牛人来一起共同奋斗。</p>
+<p>“影响意识”的能力是一个CTO水平高低的评判标准，也是每个“O”级别管理者能力的体现。同样是CEO/CTO，除了可以“成事”的领导力，文化构造能力也是决定了哪些企业可以持续壮大，哪些企业会昙花一现的关键要素。</p>
+<h2>人员管理能力：“人*100”的能力</h2>
+<p>人员是一个科技企业和技术团队核心最重要的资产，如何让技术人才这样特别聪明的一群人可以高效的工作，对这些聪明人如何招、识、管、留、开，是一个技术管理者的核心技能。人员管理其中不仅仅是沟通的能力，更要是对人员素质的准确判断、员工心理、团队士气、杀伐决断、上下级管理沟通的综合能力。</p>
+<p>从发挥人员能力的角度来看，一个好的技术人才可以做到乘以1，一个优秀的总监可以做到乘以10，一个卓越的O级别人物就要做到乘以100。所以，人员管理的能力，简化来讲，就是管理者如何让人乘以100的能力。这里的人员管理，不仅仅指的是管理下级，还有管理同级和管理上级的能力，能否和其他合伙人以及CEO/COO级别紧密沟通和配合，也是一个高级管理人员是否可以成功的关键。</p>
+<h2>体系搭建能力：“建巢、管事”的能力</h2>
+<p>体系搭建能力比较复杂，做成一个事情，不仅仅包括项目管理的能力，而且要包括从0开始建立选择项目管理方法、选择人员管理体系，然后再根据体系进行管理的能力。不同的公司，不同的阶段管理方法和体系都会发生一些变化，从项目管理、架构管理、到人员管理、体系管理，什么时间用什么样的管理方法，控制好质量、进度、节奏、人员是一个管理人员能力的体现。从具体管代码、项目，到最高层的建立一套体系取代管理人员日常的工作，体现这个管理人员的职位和公司对他的需要。</p>
+<h2>技术实力：“技术肌肉”的实力</h2>
+<p>技术管理人员，技术是必不可少的，在这个维度上经常有些争论，例如“CTO要不要是极客”，“CTO应该不应该写代码”。我这么理解，把技术人员对比成运动员，一个人的技术能力就是他的肌肉的实力。有的人上肢力量很发达，可以举重；有的人腿部肌肉很发达，可以短跑，有的人肌肉匀称，善于马拉松。不同的技术人员、不同的职位，需要的肌肉群是不同的，对于不同公司的相同职位，其实需要的肌肉群也不同。没有一个人全身的肌肉都发达，也没有一个公司仅需要一种肌肉群的CTO，作为技术人员来讲，你的肌肉强度和肌肉群的分布，也会影响职位的不同。</p>
+<p>下面根据这五个维度能力模型来重新定义现在的技术管理岗位，公司的管理者也可以根据实际需要来找到公司需要的人才：</p>
+<p><strong>技术总监能力模型</strong><br />
+<img src="https://static001.geekbang.org/resource/image/e6/38/e6c175c1e3f1302a00303cea331dd838.png" alt="" /></p>
+<p>对于技术总监来讲，要有比较强的技术基础实力和人员管理能力，主要是要能把事情完成和落地，对于小公司来讲，如果最高职位是技术总监，那么就需要技术肌肉矩阵全面的，对于大公司，技术总监意味着单项技术肌肉比较强。无论公司大小，总监级别一般都会汇报给某个业务线VP或者技术线VP/CTO，因为他不是对最终结果负责的人。同样，领导力和体系搭建能力就没有那么强，对于文化构造能力更要弱一些，因为这个层级并不需要这些能力。</p>
+<p><strong>技术VP能力模型</strong><br />
+<img src="https://static001.geekbang.org/resource/image/10/93/10d0fb342ae298b1479f051e510ce193.png" alt="" /></p>
+<p>技术VP和总监最大的差异在于体系搭建能力的增强，每一个VP会有一个或者多个总监来支撑，建立一套体系让技术研发高效的运转起来，体系搭建的能力甚至要高于CTO，因为他是CTO的大内总管。而技术实力略强于总监，领导力，文化构造能力也有所提高。VP和CTO的最大差异是是否可以对技术的最终结果负责，不仅仅是技术本身、而是在财务、战略方向上是否具有决策力，这是副手和正手之间的差距。在很多时候拍板很难，因为CTO很多时候不管是不是由你直接造成的，你都要承担所有的后果。所以技术VP一般不会直接汇报给CEO，因为CEO眼里只有0和1，不会接受任何理由。同时，公司外部文化和内部文化的构造能力也是VP和CTO的差异之一。</p>
+<p><strong>首席架构师能力模型</strong><br />
+<img src="https://static001.geekbang.org/resource/image/9b/d3/9b8c800f901c4dead79392d655602bd3.png" alt="" /></p>
+<p>首席架构师应该是在公司里技术最全面最强的一个人，技术肌肉和公司整个技术最匹配的人员。经常有人会把首席架构师能力模型和CTO能力模型搞混，首席架构师可以是Geek一样的人物，因为他不对商业的最终结果负责，但是对技术整体架构、前瞻性，技术本身体系负责。因此，首席架构经常会把方案汇报给技术VP/CTO供选择，不会最终拍板。首席架构师的技术非常厉害，领导力和文化构造能力就会相对较弱一些。</p>
+<p><strong>CTO能力模型</strong><br />
+<img src="https://static001.geekbang.org/resource/image/19/4b/19a34c0d04cecb9403e78f69d3de214b.png" alt="" /></p>
+<p>CTO是能力矩阵里最均衡的一个，突出的能力是领导力和文化构造能力，而不是技术实力。公司小的时候，CTO可能是公司中技术最强的那个人，但是CTO必须要有能力构建一个文化和体系，迅速能让比自己技术牛的人、体系搭建能力比自己强的人融入到公司，才可以让自己到更高层次上来做决策。CTO要把控和技术相关的布局节奏、商业结果、公司战略、人才策略，并翻译成其他合伙人可以听懂的语言，来做“成”事。</p>
+<p>CTO的技术肌肉通常要全身匀称的，因为他是公司里的技术肌肉教练，他可以肌肉不强大，但是要知道找什么样的技术肌肉团队来满足公司的需要，在赛场上赢球。同样，如果CTO只对技术着迷而对于CEO的融资策略、战略决策、业务布局，COO/CFO的公司运营、财务运作没有有效建议并对结果负责的话，CTO也很难成为公司CEO、COO、CTO三个重要O级别人物之一。所以，最终的管理的道理是相通的，如果你选择了CTO作为你的职业路径的话，其实你已经放弃了你是公司技术最强的那个人的成长路径。</p>
+<h2>结语</h2>
+<p>上面用技术管理核心模型来重新定义了这几个职位，一个初级技术管理人员可以根据自己的职业发展方向有意地培养自己的能力来达到自己的目标方向，一个公司在招聘技术人员的时候也可以对号入座，构建合适的JD找到自己合适的人才。这个“郭氏”技术管理核心模型也是第一个版本，也希望各位多给宝贵意见，促进模型本身逐步迭代，更贴近企业技术管理真实现状。后续几篇文章会分享一下如何提高这五方面能力的一些心得和经验，请大家持续关注《技术领导力300讲》。</p>
+<!-- [[[read_end]]] -->
+<p><strong>作者简介</strong></p>
+<p>郭炜，易观 CTO ，中国软件行业协会智能应用服务分会副主任委员，<a href="https://tgo.geekbang.org">TGO鲲鹏会</a>北京分会董事会会长。负责构建易观技术团队、完成易观大数据采集、平台、数据挖掘等技术架构与体系；从无到有完成易观混合云的搭建、以及易观 SDK 的升级，并发布易观秒算实时计算平台。目前易观大数据平台日处理数据量 30T ，272 亿条，月活用户5.5亿。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">axindeng</span>
+                            </div>
+                            <div class="bd">如果是原作者来念就更有feel了。 <br></div>
+                            <span class="time">2018-04-16 12:37</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/ee/d2/7024431c.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">探索无止境</span>
+                            </div>
+                            <div class="bd">期待共同成长，能力模型清晰，后面可以有些实际例子讲述会更精彩 <br></div>
+                            <span class="time">2018-04-16 07:15</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/96/84/31ab9f54.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Python运维实战</span>
+                            </div>
+                            <div class="bd">&quot;把技术人员对比成运动员，一个人的技术能力就是他的肌肉的实力&quot;这个比喻太形象了[强强强]！ <br></div>
+                            <span class="time">2018-04-16 08:29</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/8f/c3/d9c6fcb1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">LQ</span>
+                            </div>
+                            <div class="bd">理论描述的很不错。建议后续增加实际案例，可以给人留下更深的印象。 <br></div>
+                            <span class="time">2018-04-16 09:35</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/25/07/f49d25de.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">顺耳流</span>
+                            </div>
+                            <div class="bd">知止而后能定 <br></div>
+                            <span class="time">2018-04-16 13:41</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/4a/cf/9c61e7d5.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">ibrothergang</span>
+                            </div>
+                            <div class="bd">图文并茂，很好的诠释了技术这条线上各个职位。<br><br>之前一直对技术总监，首席架构师，CTO 没有明确的边界线，看了这篇文章后，能够更加清晰的了解各职位的区别，根据自己的能力模型对应到相应的职位，在工作上有的放矢。 <br></div>
+                            <span class="time">2018-04-16 09:04</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/0b/04/de5370a7.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">aidway</span>
+                            </div>
+                            <div class="bd">定位第一，行动第二。想清楚自己期望的角色，然后基于角色的要求去完善自己的能力。 <br></div>
+                            <span class="time">2018-04-17 11:23</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a8/3a/0ec2bf40.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">李其超</span>
+                            </div>
+                            <div class="bd">有帮助，整理的很清晰 <br></div>
+                            <span class="time">2018-04-22 10:46</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9a/0b/0b6fa6d1.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Erik</span>
+                            </div>
+                            <div class="bd">首先对于技术的理解，体系的搭建都要到位，每件事自己都要把握到细节，靠别人是不行的，自己首先要有典范作用，抓主要的时间，主要的事。 <br></div>
+                            <span class="time">2018-04-21 23:14</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/92/70/0c1233ce.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">路加 | Luke</span>
+                            </div>
+                            <div class="bd">越工作越发现模型的重要性，模型也是在这个世界上让自己变得更强大的可行路线！最近极客时间的课程你越来越棒了 <br></div>
+                            <span class="time">2018-04-20 12:52</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9a/a9/ae10f6cd.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">影随</span>
+                            </div>
+                            <div class="bd">对这三个概念有了清晰认识<br><br>有了比较明确的提升点了 <br></div>
+                            <span class="time">2018-04-16 22:45</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/f5/1f/577265ea.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">少帅</span>
+                            </div>
+                            <div class="bd">能力矩阵非常清晰，对标自己定位可以去逐个提升 <br></div>
+                            <span class="time">2018-04-16 09:33</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/13/d9/c5/e89a277a.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">zack🐯</span>
+                            </div>
+                            <div class="bd">本篇讲述了CTO，VP，总监的能力模型和格局分层。 <br></div>
+                            <span class="time">2018-11-23 09:49</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/e6/37/74ec8fbb.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">小太白dingyi david</span>
+                            </div>
+                            <div class="bd">非常好，很有帮助！谢谢 <br></div>
+                            <span class="time">2018-11-22 14:46</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83ep7jQBTL52CbHbayibX3yySfNIOveibcDPibylhDYyMQq2jqohSrNarn4wJTfkqDWnyVLrM8FRe3KyDw/132" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">mtou</span>
+                            </div>
+                            <div class="bd">技术人员有的时候感觉文化建设比较虚，所以也容易忽略文化建设。这方面也缺乏一些方法，希望这方面能多一些讲解。 <br></div>
+                            <span class="time">2018-11-08 14:17</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/7c/24/7279ce75.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">乐呵呵</span>
+                            </div>
+                            <div class="bd">看了文章之后，感觉写的很到位，自己的大概目标和方向也清楚了，需要提高和改进的技能也知晓了。说起来容易，做起来难啊，还需要一步步去走。作者文章写的简单直白，但是走过的路、踩过的坑估计只有自己明白。受教了！！！ <br></div>
+                            <span class="time">2018-08-25 15:01</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/74/3d/54bbc1df.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Jaime</span>
+                            </div>
+                            <div class="bd">求叫大神，有关于管理学的书籍介绍吗？ <br></div>
+                            <span class="time">2018-07-24 19:07</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a1/c9/f75f8ae3.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">self-discipline</span>
+                            </div>
+                            <div class="bd">你好，学习时候，做笔记，整理到自己的博客上允许吗？ <br></div>
+                            <span class="time">2018-04-28 16:46</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a1/c9/f75f8ae3.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">self-discipline</span>
+                            </div>
+                            <div class="bd">收获非常大，讲之前自己模糊的概念给具体化处理了。可以按图索骥，自己的定位去发展自己的能力 <br></div>
+                            <span class="time">2018-04-28 16:32</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/9b/b6/6f717d18.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">VKEL</span>
+                            </div>
+                            <div class="bd">如果是作者讲就更好了。别人读的没感情，特别还是懂点播音的读，可能字正腔圆，但总能觉出假来。 <br></div>
+                            <span class="time">2018-04-26 09:19</span>
+                            
+                            <div class="reply">
+                                <div class="reply-hd"><span>作者回复</span></div>
+                                <p class="reply-content">您好，考虑到作者都是公司的技术领导者，时间非常宝贵；并且作者较多，录音的音质难以保证，所以我们没有采用这种方式。</p>
+                                <p class="reply-time">2018-04-26 15:24</p>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

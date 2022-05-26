@@ -1,0 +1,263 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第15讲讲定制高效研发流程
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/1b/47/1b2a33dc3d5156068d0add362287c247.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>当我们的研发团队组织架构搭建完毕后，接下来需要思考的是，如何让这个架构跑起来、跑得快、跑得稳。此时，我们需要定义出一个高效的研发流程，还要尽可能降低研发过程中所遇到的风险，确保在流程的每个环节中都不能出错。</p>
+<p>在定义具体的研发流程之前，我们需要从整体入手，先把研发流程体系架构定义清楚，便于让团队从全局上把控整个过程。接下来需要从局部入手，将研发流程中所涉及的操作步骤罗列出来，便于指导团队完成具体的工作。</p>
+<p>现在我们就从整体开始，对研发流程的体系架构进行探讨。</p>
+<h2>研发流程体系架构</h2>
+<p>高效的研发过程应该具备“多线程”的特性，仿佛多条并行流淌的河流，上游是业务，中游的是产品，下游是技术，流量取决于业务，流速取决于产品和技术。</p>
+<p>需要说明的是，这里的“业务”其实包括两类人：一是公司内部使用产品的业务同事，二是公司外部使用产品的最终用户。为了便于描述，下文统一将他们称为“业务需求方”或“业务方”，简称“业务”。</p>
+<p>根据我的上篇文章可知，整个研发工作流程体系架构是职能团队与项目团队的有机结合，团队职责清晰且协作高效（如图 1 所示）。</p>
+<p><img src="https://static001.geekbang.org/resource/image/5b/9d/5b3dcf013499bbdd21ef7a2dc003809d.png" alt="" /><br />
+<span class="orange">图 1：研发流程框架图</span></p>
+<p>在职能团队中，产品委员会的产品专家们将业务需求统一记录到“需求池”中。需求池中的每一个需求都要描述业务的当前现状，还要包括业务对产品的未来期望。每隔一段时间（一般是 1~2 周），产品委员会将根据需求池中所记录的需求细节加以讨论，并将优先级较高的需求进行立项和排期，项目团队可知晓近期需要实现的业务需求是什么，整个团队的方向感也更加清晰了。</p>
+<p>需求池中一个典型的需求可包括以下字段：</p>
+<p><span class="orange">需求名称：</span>用一个关键词描述，最多15个字。</p>
+<p><span class="orange">需求来源：</span>该需求来自于哪里？包括业务、运营、财务、法务、市场、其他。</p>
+<p><span class="orange">业务痛点：</span>为何要实现该需求？即业务当前的现状。</p>
+<p><span class="orange">需求描述：</span>该需求具体是什么？即业务将来的诉求。</p>
+<p><span class="orange">渴望程度：</span>期待何时可以上线？包括：本周、本月、下月、本季度、下季度、未来、或具体截止日期。</p>
+<p><span class="orange">需求类型：</span>包括：新功能（从 0 到 1）、优化（从 1 到 100）。</p>
+<p><span class="orange">需求规模：</span>包括：大（两周以上）、中（一至两周）、小（一周以内）、未知。</p>
+<p><span class="orange">备注：</span>可写下对该需求的补充或疑问，以便深入交流。</p>
+<p><span class="orange">附件：</span>可通过相关文档对需求进行补充描述。</p>
+<p><span class="orange">创建人：</span>该需求被谁创建？</p>
+<p><span class="orange">处理状态：</span>包括：未处理（默认）、处理中、已处理、关闭。</p>
+<p><span class="orange">优先级：</span>包括：A（重要&amp;紧急）、B（重要&amp;不紧急）、C（不重要&amp;紧急）、D（不重要&amp;不紧急）、X（待定）。</p>
+<p><span class="orange">负责人：</span>该需求由谁跟进？</p>
+<p>简单情况下，可使用电子表格的方式来维护需求池，比如：Numbers、Excel 等，当然也可通过在线方式来管理，比如：石墨文档、金数据等。</p>
+<p>需要注意的是，需求池对公司全员共享，由产品委员会管理并维护，其他人员只能阅读但无法编辑。产品专家们首先需要和业务需求方进行有效沟通，深刻理解他们的业务痛点与未来期望后，才能将这些需求入池。</p>
+<p>从需求池中挑出的高优先级需求将分别“流入”对应的项目团队中，在项目的执行过程中难免会遇到技术上的遗留问题，然而团队不希望因为这些问题而导致项目工期受到影响。因此，这些技术遗留问题将被列为“技术债”，技术委员会中的技术专家们将对这些技术债加以管理和跟踪，在后期会有针对性地解决这些技术问题，偿还这些技术债。</p>
+<p>了解了研发流程体系架构后，下面我们进入具体的研发流程操作步骤。</p>
+<!-- [[[read_end]]] -->
+<h2>研发流程操作步骤</h2>
+<p>将需求转化为项目，是一个复杂的过程，如果只是一个体系架构，恐怕也只是空中楼阁，因此我们有必要对整个研发流程体系架构进行细化，为其设计具体的操作步骤，以便让整个流程可以顺利落地。</p>
+<p>我们可定义了以下 10 个操作步骤，将需求转化为产品，将产品转换为项目，将项目顺利上线（如图 2 所示）。</p>
+<p><img src="https://static001.geekbang.org/resource/image/bc/49/bc69a1e8c1a0f59d05ad425c5f7d4349.png" alt="" /><br />
+<span class="orange">图 2：研发流程操作图</span></p>
+<p>以上 10 个阶段，涉及到不同角色的人员，每个阶段需要包含当前所需完成的任务，也涉及到相关例行会议。我们可将这份操作步骤打印下来，发给每一位研发人员，并贴在会议室的墙壁上，每日站立会的时候，团队都能看得见它。我们会慢慢发现，每个项目团队都有相同的工作习惯，大家还可不断优化这份操作步骤以及其中的相关细节。</p>
+<p>需要注意的是，产品经理在需求调研阶段，必须了解业务的当前现状，搞清楚业务痛点是什么？我们不妨这样做业务调研：如果没有这项功能，业务同事需要花多长时间、多少人力来完成自己的工作？当前的获客成本是多少？订单转化率是多少？产品经理需要将这些信息和数据记录下来，并丰富到需求池中。此外，在每次启动项目之前，需要得知该执行项目的目标是什么？如何来验证这个目标？</p>
+<p>我们需定期对已上线项目进行复盘，可通过“复盘四步法”来完成：</p>
+<p><span class="orange">审视目标：</span>当初设定的目标是什么？目前达成的现状是什么？差异是什么？</p>
+<p><span class="orange">回顾过程：</span>回顾整个过程是如何进行的？大致分为几个阶段？每个阶段发生了什么？</p>
+<p><span class="orange">分析得失：</span>哪些方面做得好？哪些方面做得不好？为什么？</p>
+<p><span class="orange">总结规律：</span>再次做同类事情应该怎么做？对未来工作有何指导？有何规律、原则、方法论？</p>
+<p>使用以上项目流程与复盘方法，可确保以正确的方法将事情做正确。但是，只能解决研发内部的闭环问题，似乎无法解决研发和业务之间的外部闭环问题，也就是说，研发和业务之间的高效协作问题还需进一步探讨。</p>
+<h2>研发与业务如何协作？</h2>
+<p>这个问题也许在许多企业中会存在，毕竟业务和研发的工作性质不同，关注点也不同，因此考虑问题的方式也会不同。</p>
+<p>业务心中可能会这样认为：为何我们提出的需求，研发总是迟迟不解决？</p>
+<p>研发心中可能会这样认为：为何我们上线的功能，业务总是迟迟不反馈？</p>
+<p>我们似乎遇到了一个“死锁”问题，彼此都在等待对方。业务提出需求，得不到及时响应；当研发响应后，却得不到反馈。久而久之，业务和研发之间会失去信任，从而严重影响企业的可持续发展。</p>
+<p>这里我向大家介绍一种新玩法，它能让业务和研发得到更好的闭环，而且让双方的协作过程变得更加顺畅。我们称这个方案为“特赞之声”（如图 3 所示）。</p>
+<p><img src="https://static001.geekbang.org/resource/image/b3/b2/b30a8efa8832346f59b2c47b2e6393b2.jpg" alt="" /><br />
+<span class="orange">图 3：特赞之声</span></p>
+<p>在公司内部，我们制作了一种叫做“特赞币”的虚拟货币，其实它只是普通的磁铁，币上贴了一个自制的图案而已。我们给业务部门发放固定数量的特赞币，为了避免“通货膨胀”现象，我们一次性不会发太多币，后期可根据实际情况适当增发。</p>
+<p>当业务部门遇到痛点时，可在痛点卡片上手动填写具体痛点，并用特赞币将卡片固定在白板上。此时需要消耗一个或多个特赞币，如果一次性使用多个币，表示优先级更高。项目上线后，当业务部门提供使用反馈后，将得到一个特赞币，提出的反馈包括对已有功能的称赞或吐槽。</p>
+<p>也就是说，提需求要“花钱”，提反馈可“赚钱”，这样可确保业务所提需求都是最大痛点，由于币数是固定的，因此需要通过提反馈来获取新币，这样研发和业务自然就建立了有效循环。</p>
+<p>除了痛点和反馈以外，公司全员也可以提出脑洞，也就是对产品的奇思妙想，脑洞被产品委员会采纳后，可赠送一定数量的特赞币。痛点会使用特赞币将其吸附在白板上，反馈和脑洞可使用普通磁铁来固定。</p>
+<p>使用特赞之声，我们得到了以下收益：</p>
+<p>业务人员：业务痛点得到更好的重视，得以更快速地解决。</p>
+<p>研发人员：产品价值得到更好的体现，产生更高的成就感。</p>
+<p>彼此双方：业务与研发不再孤立，从而形成了完美的闭环。</p>
+<h2>写在最后</h2>
+<p>没有人愿意在一个复杂的流程上投入自己更多的时间，流程是帮助我们更规范地做事情，目的是避免犯错误。因此，在流程的定义上，我们可以先简单后精细，简单才便于操作，精细才易于管理。</p>
+<p>以上我们提到的研发流程十步骤，对于大家而言只是一个参考模型，大家需要根据自身实际情况，作出合理调整，流程才能发挥出最大的作用。否则，它可能会变成一种负担，反而约束了我们前进的速度。</p>
+<p>研发流程是团队的行动规范，是大家共同智慧的沉淀，流程高效，产出才能高效。</p>
+<p><em><strong>作者简介</strong></em></p>
+<p>黄勇，现任特赞科技（<a href="http://tezign.com">tezign.com</a>）CTO，图书《架构探险》作者，Smart 开源项目作者，<a href="http://tgo.geekbang.org">TGO鲲鹏会</a>上海分会董事会成员，QCon 讲师。十年以上互联网软件架构与技术管理经验，擅长敏捷开发，推崇“轻量级”架构思想。喜欢阅读，热爱交流，乐于分享。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/a1/c9/f75f8ae3.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">self-discipline</span>
+                            </div>
+                            <div class="bd">请教:我们公司的产品经理呢，产品原型出来后，我们也评估了，开始开发，开发中，要上线了，产品经理不断改逻辑，加逻辑，小版本迭代变成大版本迭代，我是个中层吧，一直想在评估后开发前，做封版处理的，但是一直有上层的压力，封不了版本，求教如何处理呢，快两年了，心力憔悴 <br></div>
+                            <span class="time">2018-05-10 07:42</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/02/5c/13332f45.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">黄勇</span>
+                            </div>
+                            <div class="bd">回答：易永健<br><br>项目启动阶段第一条需求确定，如果放到项目计划阶段，那么项目估计可能更准一些，计划可能更合理些<br><br>回答：考虑到项目计划阶段可能会结合实际情况对需求范围做一定调整，因此将需求确定放在了项目启动环节，也是为了给团队一个信号，只要项目启动了，需求就能随意变化了。<br><br>对于领域已经划分好的迭代增量需求，文中提到的研发流程比较合适，但如果要做一个新领域需求，那么可能要有一个独立的领域建模子阶段，可以放在产品需求定稿前执行，形成通用语言和服务边界划分，运用ddd的思路方法<br><br>回答：认同！全新的领域，可采用更加适合的方法。 <br></div>
+                            <span class="time">2018-05-09 12:30</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/60/3e/74077d88.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Eric</span>
+                            </div>
+                            <div class="bd">我对特赞币的做法的理解应该是需求方和执行方在责任心、沟通、反馈上面增强的手段，但是手段之下如果对货币的价值定义不清晰，会有适得其反的效果 <br></div>
+                            <span class="time">2018-05-26 09:27</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/13/43/17/cf05620a.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">七七默默</span>
+                            </div>
+                            <div class="bd">特赞币很好 <br></div>
+                            <span class="time">2018-10-30 22:06</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/11/32/7e/876d43e0.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">wenhao</span>
+                            </div>
+                            <div class="bd">特赞币的做法确实挺好，不过这个虚拟货币没有一定的价值，各角色又为什么要去获取它。价值又是怎么定义的了？ <br></div>
+                            <span class="time">2018-08-01 08:09</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">muzili</span>
+                            </div>
+                            <div class="bd">能再详细解释一下，功能团队，效率团队和创新团队的区分和功能吗，规模比例是怎么样的？ <br></div>
+                            <span class="time">2018-05-12 09:37</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/02/5c/13332f45.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">黄勇</span>
+                            </div>
+                            <div class="bd">回答 nopsky<br><br>项目上线以后，产品一般都会持续向研发反馈优化和bug，或者新功能，一般不会出现得不到反馈吧，您说的反馈内容是指项目好坏的使用数据和用户的评价吗？<br><br>回答：反馈主要包括用户使用行为上的反馈，以及数据表现上的反馈。前者比较主观，需要通过调查来完成；后者比较客观，需要通过事实来说话。<br><br>业务人员跟研发人员反馈的内容是什么？研发人员是不是也有获取币的方式？解决需求获取币吗？<br><br>回答：业务人员主要反馈的是用户使用行为上的反馈，研发人员可以通过数据来反馈。研发人员也可以获得币，比如提出了一个很好的脑洞，被产品委员会采纳了。研发人员得到币以后，也能提自己的痛点，比如为了完成运营工单，希望产品如何提供功能上的满足。 <br></div>
+                            <span class="time">2018-05-09 12:38</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/e2/11/d0d8d773.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">易永健</span>
+                            </div>
+                            <div class="bd">项目启动阶段第一条需求确定，如果放到项目计划阶段，那么项目估计可能更准一些，计划可能更合理些<br><br>对于领域已经划分好的迭代增量需求，文中提到的研发流程比较合适，但如果要做一个新领域需求，那么可能要有一个独立的领域建模子阶段，可以放在产品需求定稿前执行，形成通用语言和服务边界划分，运用ddd的思路方法 <br></div>
+                            <span class="time">2018-05-09 08:15</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/f4/9f/c41c0142.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">nopsky</span>
+                            </div>
+                            <div class="bd">项目上线以后，产品一般都会持续向研发反馈优化和bug，或者新功能，一般不会出现得不到反馈吧，您说的反馈内容是指项目好坏的使用数据和用户的评价吗？ <br></div>
+                            <span class="time">2018-05-09 09:15</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/f4/9f/c41c0142.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">nopsky</span>
+                            </div>
+                            <div class="bd">业务人员跟研发人员反馈的内容是什么？研发人员是不是也有获取币的方式？解决需求获取币吗？ <br></div>
+                            <span class="time">2018-05-09 09:09</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

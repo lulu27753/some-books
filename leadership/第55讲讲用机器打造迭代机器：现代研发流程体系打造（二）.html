@@ -1,0 +1,191 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第55讲讲用机器打造迭代机器：现代研发流程体系打造（二）
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/0f/7f/0f32a4f17a09a6b2421eb17f6b9d247f.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>你好，我是爱范儿CTO兼知晓云负责人何世友，今天想跟大家继续聊聊“打造现代研发流程体系”这个话题，并将着重跟大家分享其中“用机器打造迭代机器”这一部分内容。</p>
+<p>在上一篇文章里，我们分析了研发流程中的关键环节，并给出了对应的解法。它们分别是——</p>
+<p><strong>1.高速运转的传送带</strong></p>
+<p>现代化的项目管理（任务流转）工具。</p>
+<p><strong>2.可追溯的迭代</strong></p>
+<p>通过传送带，将每一次迭代的产物，如代码提交、架构设计变更、测试构建部署等串联并存储起来。</p>
+<p><strong>3.重要角色的沟通</strong></p>
+<p>用一个通用平台，如Slack，在解决人与人之间通讯的基础上，重点解决系统工具与人之间的沟通问题。</p>
+<p><strong>4.用机器打造迭代机器</strong></p>
+<p>受限于文章的篇幅，上篇文章中只是简单说到了因为迭代的步骤很多，所以要让机器包揽大部分环节，估计很多读者并不能十分感同身受。本文将对此做详细解释：为什么要用机器打造迭代机器？</p>
+<p>迭代频率越高，对迭代里的自动化程度的要求就越高。打个简单的比方，如果项目要求一天迭代两次，测试工程师就要一天走完两次主流程回归测试。此时，人工就是最大的瓶颈。一个项目分分钟有成千上万个用例，依靠有限的测试人员分拣完成，那就是纯体力活了。而对质量的要求越高，主流程的覆盖范围就越广。单就这一个环节，如果没有机器的参与做自动化，就会成为一个不可调和的瓶颈了。</p><!-- [[[read_end]]] -->
+<p>之前提到，构成自动化流程的大部分工具都是现成的、可以花合理价钱买到的，本文就将重点介绍研发流程里的各种工具们，以及不同场景下的具体选型。由于这些工具被正确配置完成之后，拥有脱离人工干预在不断电的情况下自我运转的能力，我们亲切地称之为迭代机器里的机器们。</p>
+<h1>迭代机器里的流水线</h1>
+<p><img src="https://static001.geekbang.org/resource/image/55/44/557d5d610ba52b61aa410326c90b4f44.jpg" alt="" /></p>
+<p>编码【人类才智】⟹代码审查【人类才智】⟹静态检查【机器】⟹单元测试【机器】⟹测试【机器】⟹构建【机器】⟹部署【机器】⟹监控【机器】⟹自动扩（缩）容【机器】。</p>
+<p>这是一个环环相扣的流水线，每一个步骤都由一个机器角色完成并推送到下一个步骤，最终完成全程；一旦其中一环无法完成，则本次迭代就宣告失败，需要返工。</p>
+<p>通常这样的流水线跑在 CI 系统上。CI 系统，Continuous Integration，持续集成系统。常见的 CI 有 Jenkins、Bamboo、Solano CI 等。这些系统各有千秋美丑，本文不赘述对比，各位可根据团队背景和成员喜好进行选择，只需要看这个系统是否具有真正意义上的可定制拓展性，以及规模可观的第三方服务的接入支持。</p>
+<p>下边将围绕流水线中的几个重要环节进行描述。</p>
+<h2>静态检查、单元测试、构建</h2>
+<p>静态检查、单元测试和构建环节发生在每一次代码提交之后，由代码版本库的代码提交事件触发执行，如 Github、Bitbucket、Gitlab 的 Webhook 等。</p>
+<p><strong>1.静态检查</strong></p>
+<p>静态检查由各语言的语法 Lint 工具和bug 检查工具组成，前者包括 JS 的 eslint、Python 的 pylint 等，后者包括 Java 的 findbugs 等。</p>
+<p><strong>2.单元测试</strong></p>
+<p>基本上每种语言、每种框架都有支持单元测试，如 JS 的 Mocha、Python 的 unittest、Java 的 JUnit、Go 的 testing 等。工具本身都是比较类似的，各语言开发者都应该很熟悉。难在代码编写时的测试用例覆盖，这是一个需要仔细权衡覆盖度和时间的过程。</p>
+<p>在实践中，比较推荐的是，让测试工程师参与到单元测试编写中来，每一次项目的测试用例评审，一部分用例一定要转化为开发工程师的单元测试。或者说，测试工程师需要参与到开发工程师的单元测试审查和覆盖率评估中，对应的，开发工程师也要参与到测试用例评审中。这二者相结合，黑白盒、单元集成测试才能真正有机的为项目质量负责。</p>
+<p><strong>3.构建</strong></p>
+<p>构建（Build）是需要开发工程师根据项目的部署策略编写对应的构建打包脚本。例如前端的 webpack、后端的 maven、客户端的打包等。不过基本上要做的事情就是将原本由工程师在本机上跑的脚本移植到 CI 系统上，这个过程本身不带来多少成本。</p>
+<h2>自动化测试</h2>
+<p>自动化测试由测试工程师维护，由两块工作构成：测试用例管理、自动化测试脚本编写。</p>
+<p><strong>1.测试用例管理</strong></p>
+<p>测试用例管理流行的工具有 Excel、Qmetry、TestLink 等。没错，Excel 在众多公司中依然是管理测试用例的好工具。当然在我们讨论的场景里，Excel 已经不堪其用。管理测试用例，是为了让测试用例和对应的需求描述，也就是 User Story 关联上。从而让每一轮测试执行，也就是 Test Run 的结果，不论是成功或失败，都自动回传到关联的任务状态里。</p>
+<p><img src="https://static001.geekbang.org/resource/image/02/5d/020e3f56e2d4660e0de25609bb52f75d.jpg" alt="" /></p>
+<p>同时，平台级的用例管理，可以让用例迭代起来，和项目一起生长，这和前文提到的架构设计文档的迭代一脉相承。甚至，用例要作为项目推进中的自动化测试的组织枢纽，串联起自动化测试和实际任务的状态流转。</p>
+<p><strong>2.自动化测试</strong></p>
+<p>这里的自动化测试，主要指的是黑盒测试和集成测试，和开发工程师维护的单元测试做一个区分。常用的框架有 LoadRunner、Selenium、Appium 等。这是一个十分耗时耗力的过程，常见的做法是梳理经过每一次迭代的测试用例，最终形成一个主流程用例集。</p>
+<p>主流程的特征是产品特性基本稳定，不会在短期内有较大改动。测试工程师需要对主流程的测试用例进行测试覆盖，例如通过 Selenium 进行 UIUE 的用户交互过程录制等。而有了主流程的覆盖，每次迭代的发布，才能够真正的做到 push on green。否则，每次发版还得测试人员手工回归确认，那基本就是一个跨不过去的时间鸿沟了。</p>
+<h2>部署、监控、自动扩（缩）容</h2>
+<p><strong>1.部署</strong></p>
+<p>Devops 的兴起让运维得到解放，Docker 的流行也让社区疯狂，似乎非 Docker 不可，不上容器不是好技术团队。其实不见得。重要的是达到目的，而非工具，一定要根据项目实际情况进行技术选型，不要因为一种便利引入额外的麻烦。</p>
+<p>目的是什么？目的是让机器自己完成自动化部署。</p>
+<p>而通过前面介绍的工作，CI流水线上已经有了经过完整测试的构建产物，于是部署阶段只剩下：</p>
+<ol>
+<li>开启并初始化机器，并完成系统环境配置，通常可以用预先准备好的镜像文件完成该步骤；</li>
+<li>上传构建产物到机器上，启动服务；</li>
+<li>将流量或任务分发到新的机器上；</li>
+<li>下线旧的机器。</li>
+</ol>
+<p>这里边有机器的运维、服务的部署、负载均衡器配置等，每一项业内都有非常不错的工具可以用。比如我们在爱范儿目前用的是——</p>
+<ol>
+<li>使用 Ansible 完成环境的自动配置，结合AWS的ami镜像完成机器运维部分；</li>
+<li>使用 Fabric 结合AWS的CodeDeploy完成的部署流程，并在此基础上完成了 Auto Scale。</li>
+</ol>
+<p>AWS 的 CodeDeploy 非常好地利用了AWS的基础设施，可以一键完成上面提到的 1、2、3、4这几个环节。而在使用 CodeDeploy 之前，团队写了一系列脚本去做这块的工作。</p>
+<p>Auto Scale 常见的做法是在监控系统里定义一系列的 Metrics，设定阈值，比如，“过去 2 分钟内机器 CPU 达到 60% 以上”就是一个完整的阈值条件定义。然后为这个阈值配置一个动作，比如“过去 2 分钟内机器 CPU 达到 60% 以上，部署并上线 4 台新的应用服务器”。而怎么部署并上线新机器就是上文的 CodeDeploy 的活儿了。</p>
+<p><strong>2.监控</strong></p>
+<p>监控分异常监控和性能监控。</p>
+<p>异常监控配合日志收集器工作，如前端的 Sentry，后端的 Cloud Watch（AWS）、loggly等。基本的工作原理是从日志中获取错误信息，并进行统计，达到设定的阈值就开始报警。异常监控系统经常对接的是电话告警系统，为 OnCall 的工程师提供错误叫醒服务。</p>
+<p>性能监控分微观和宏观两个维度：</p>
+<ol>
+<li>APM 探针实时收集应用服务器代码层面的性能信息；</li>
+<li>机器状态（cpu、mem、load）、应用服务响应时间等。</li>
+</ol>
+<p>这两者结合可以无死角反映服务状态，对接到 Auto Scale 系统后可以在大多数情况下完成自动化运维。</p>
+<p>APM 探针服务，常用的有 NewRelic、AppDynamics 等，国内也有听云、OneAPM 等一众厂商。区别基本上就是价格和第三方支持完备度，近些年各大云服务商也在做这些周边支持，选择上并不是难事。也有一些团队将机器状态等信息归到异常监控里，而我们归到性能监控，主要是站在能否让机器自己治理的角度。毕竟，放到异常监控，OnCall 的工程师更容易醒，但醒了不也是要做 Scale 的事情嘛。</p>
+<p>说到这里，大家在迭代流水线中的各个环节上都用了哪些工具呢？欢迎在留言中告诉我们，供大家参考。</p>
+<h2>一些待完成的和待思考的</h2>
+<p>然而，一台高速运转的迭代机器中，人类角色才是真正的瓶颈。或者说，高速迭代对人员的要求会更高。因此，团队的成长便更为重要，也更值得探讨。坊间有一句话，互联网公司都是轻资产，值钱的就是人、流程、代码。</p>
+<p>那如何打造一个高速成长的团队呢？希望有机会可以和大家探讨。</p>
+<p><strong>作者简介</strong></p>
+<p>何世友，爱范儿CTO <a href="https://tgo.geekbang.org">TGO鲲鹏会</a>广州分会董事会成员，学习委员。从校园创业到跨国团队技术顾问再到如今，专注于高并发网络、机器学习、移动APP（部分硬件）、团队管理。</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/42/89/f1e10b3b.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">Ernest 何世友</span>
+                            </div>
+                            <div class="bd">@walkingdonkey，感谢指出，这里刊误下：黑盒。 <br></div>
+                            <span class="time">2018-07-18 15:26</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/62/da/68151b75.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">walkingdonkey</span>
+                            </div>
+                            <div class="bd">&quot;这里的自动化测试，主要指的是白盒测试和集成测试&quot;，是不是应该是黑盒测试，而不是白盒测试？ <br></div>
+                            <span class="time">2018-07-18 07:57</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/62/da/68151b75.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">walkingdonkey</span>
+                            </div>
+                            <div class="bd">&quot;自动化测试，主要是指白盒测试和集成测试&quot;，是不是说错了？应该是黑盒测试，不是白盒测试吧？ <br></div>
+                            <span class="time">2018-07-18 07:35</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+
+#watermark {
+
+  position: relative;
+  overflow: hidden;
+}
+
+#watermark .x {
+  position: absolute;
+  top: 800;
+  left: 400;
+  color: #3300ff;
+  font-size: 50px;
+  pointer-events: none;
+  opacity:0.5;
+  filter:Alpha(opacity=50);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}
+    </style>
+
+
+    <style type="text/css">
+ html{color:#333;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-rendering:optimizelegibility;font-family:Helvetica Neue,PingFang SC,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif}html.borderbox *,html.borderbox :after,html.borderbox :before{box-sizing:border-box}article,aside,blockquote,body,button,code,dd,details,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul{margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}audio,canvas,video{display:inline-block}body,button,input,select,textarea{font:300 1em/1.8 PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,Helvetica,sans-serif}button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}blockquote{position:relative;color:#999;font-weight:400;border-left:1px solid #1abc9c;padding-left:1em;margin:1em 3em 1em 2em}@media only screen and (max-width:640px){blockquote{margin:1em 0}}abbr,acronym{border-bottom:1px dotted;font-variant:normal}abbr{cursor:help}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400}ol,ul{list-style:none}caption,th{text-align:left}q:after,q:before{content:""}sub,sup{font-size:75%;line-height:0;position:relative}:root sub,:root sup{vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a{color:#1abc9c}a:hover{text-decoration:underline}.typo a{border-bottom:1px solid #1abc9c}.typo a:hover{border-bottom-color:#555;color:#555}.typo a:hover,a,ins{text-decoration:none}.typo-u,u{text-decoration:underline}mark{background:#fffdd1;border-bottom:1px solid #ffedce;padding:2px;margin:0 5px}code,pre,pre tt{font-family:Courier,Courier New,monospace}pre{background:hsla(0,0%,97%,.7);border:1px solid #ddd;padding:1em 1.5em;display:block;-webkit-overflow-scrolling:touch}hr{border:none;border-bottom:1px solid #cfcfcf;margin-bottom:.8em;height:10px}.typo-small,figcaption,small{font-size:.9em;color:#888}b,strong{font-weight:700;color:#000}[draggable]{cursor:move}.clearfix:after,.clearfix:before{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}.textwrap,.textwrap td,.textwrap th{word-wrap:break-word;word-break:break-all}.textwrap-table{table-layout:fixed}.serif{font-family:Palatino,Optima,Georgia,serif}.typo-dl,.typo-form,.typo-hr,.typo-ol,.typo-p,.typo-pre,.typo-table,.typo-ul,.typo dl,.typo form,.typo hr,.typo ol,.typo p,.typo pre,.typo table,.typo ul,blockquote{margin-bottom:1rem}h1,h2,h3,h4,h5,h6{font-family:PingFang SC,Helvetica Neue,Verdana,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;color:#000;line-height:1.35}.typo-h1,.typo-h2,.typo-h3,.typo-h4,.typo-h5,.typo-h6,.typo h1,.typo h2,.typo h3,.typo h4,.typo h5,.typo h6{margin-top:1.2em;margin-bottom:.6em;line-height:1.35}.typo-h1,.typo h1{font-size:2em}.typo-h2,.typo h2{font-size:1.8em}.typo-h3,.typo h3{font-size:1.6em}.typo-h4,.typo h4{font-size:1.4em}.typo-h5,.typo-h6,.typo h5,.typo h6{font-size:1.2em}.typo-ul,.typo ul{margin-left:1.3em;list-style:disc}.typo-ol,.typo ol{list-style:decimal;margin-left:1.9em}.typo-ol ol,.typo-ol ul,.typo-ul ol,.typo-ul ul,.typo li ol,.typo li ul{margin-bottom:.8em;margin-left:2em}.typo-ol ul,.typo-ul ul,.typo li ul{list-style:circle}.typo-table td,.typo-table th,.typo table caption,.typo table td,.typo table th{border:1px solid #ddd;padding:.5em 1em;color:#666}.typo-table th,.typo table th{background:#fbfbfb}.typo-table thead th,.typo table thead th{background:hsla(0,0%,95%,.7)}.typo table caption{border-bottom:none}.typo-input,.typo-textarea{-webkit-appearance:none;border-radius:0}.typo-em,.typo em,caption,legend{color:#000;font-weight:inherit}.typo-em{position:relative}.typo-em:after{position:absolute;top:.65em;left:0;width:100%;overflow:hidden;white-space:nowrap;content:"\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"}.typo img{max-width:100%}.common-content{font-weight:400;color:#353535;line-height:1.75rem;white-space:normal;word-break:normal;font-size:1rem}.common-content img{display:block;max-width:100%;background-color:#eee}.common-content audio,.common-content video{width:100%;background-color:#eee}.common-content center,.common-content font{margin-top:1rem;display:inline-block}.common-content center{width:100%}.common-content pre{margin-top:1rem;padding-left:0;padding-right:0;position:relative;overflow:hidden}.common-content pre code{font-size:.8rem;font-family:Consolas,Liberation Mono,Menlo,monospace,Courier;display:block;width:100%;box-sizing:border-box;padding-left:1rem;padding-right:1rem;overflow-x:auto}.common-content hr{border:none;margin-top:1.5rem;margin-bottom:1.5rem;border-top:1px solid #f5f5f5;height:1px;background:none}.common-content b,.common-content h1,.common-content h2,.common-content h3,.common-content h4,.common-content h5,.common-content strong{font-weight:700}.common-content h1,.common-content h2{font-size:1.125rem;margin-bottom:.45rem}.common-content h3,.common-content h4,.common-content h5{font-size:1rem;margin-bottom:.45rem}.common-content p{font-weight:400;color:#353535;margin-top:.15rem}.common-content .orange{color:#ff5a05}.common-content .reference{font-size:1rem;color:#888}.custom-rich-content h1{margin-top:0;font-weight:400;font-size:15.25px;border-bottom:1px solid #eee;line-height:2.8}.custom-rich-content li,.custom-rich-content p{font-size:14px;color:#888;line-height:1.6}table.hljs-ln{margin-bottom:0;border-spacing:0;border-collapse:collapse}table.hljs-ln,table.hljs-ln tbody,table.hljs-ln td,table.hljs-ln tr{box-sizing:border-box}table.hljs-ln td{padding:0;border:0}table.hljs-ln td.hljs-ln-numbers{min-width:15px;color:rgba(27,31,35,.3);text-align:right;white-space:nowrap;cursor:pointer;user-select:none}table.hljs-ln td.hljs-ln-code,table.hljs-ln td.hljs-ln-numbers{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;font-size:12px;line-height:20px;vertical-align:top}table.hljs-ln td.hljs-ln-code{position:relative;padding-right:10px;padding-left:10px;overflow:visible;color:#24292e;word-wrap:normal;white-space:pre}video::-webkit-media-controls{overflow:hidden!important}video::-webkit-media-controls-enclosure{width:calc(100% + 32px);margin-left:auto}.button-cancel{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel,.button-primary{-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary{color:#fff;background-color:#ff5a05;border-radius:3px}@font-face{font-family:iconfont;src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot);src:url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.woff) format("woff"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.ttf) format("truetype"),url(//at.alicdn.com/t/font_372689_bwwwtosxtzp.svg#iconfont) format("svg")}@font-face{font-family:player-font;src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot);src:url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.woff) format("woff"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.ttf) format("truetype"),url(//at.alicdn.com/t/font_509397_1cyjv4o90qiod2t9.svg#player-font) format("svg")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-webkit-text-stroke-width:.2px;-moz-osx-font-smoothing:grayscale}html{background:#fff;min-height:100%;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{width:100%}body.fixed{overflow:hidden;position:fixed;width:100vw;height:100vh}i{font-style:normal}a{word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}a:hover{text-decoration:none}.fade-enter-active,.fade-leave-active{transition:opacity .3s}.fade-enter,.fade-leave-to{opacity:0}.MathJax,.MathJax_CHTML,.MathJax_MathContainer,.MathJax_MathML,.MathJax_PHTML,.MathJax_PlainSource,.MathJax_SVG{outline:0}.ios-app-switch .js-audit{display:none}._loading_wrap_{position:fixed;width:100vw;height:100vh;top:50%;left:50%;transform:translate(-50%,-50%);z-index:999}._loading_div_class_,._loading_wrap_{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}._loading_div_class_{word-wrap:break-word;padding:.5rem .75rem;text-align:center;z-index:9999;font-size:.6rem;max-width:60%;color:#fff;border-radius:.25rem;-ms-flex-direction:column;flex-direction:column}._loading_div_class_ .message{color:#353535;font-size:16px;line-height:3}.spinner{animation:circle-rotator 1.4s linear infinite}.spinner *{line-height:0;box-sizing:border-box}@keyframes circle-rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}.path{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;animation:circle-dash 1.4s ease-in-out infinite,circle-colors 5.6s ease-in-out infinite}@keyframes circle-colors{0%{stroke:#ff5a05}to{stroke:#ff5a05}}@keyframes circle-dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}.confirm-box-wrapper,.confirm-box-wrapper .mask{position:absolute;top:0;left:0;right:0;bottom:0}.confirm-box-wrapper .mask{background:rgba(0,0,0,.6)}.confirm-box-wrapper .confirm-box{position:fixed;top:50%;left:50%;width:267px;background:#fff;transform:translate(-50%,-50%);border-radius:7px}.confirm-box-wrapper .confirm-box .head{margin:0 18px;font-size:18px;text-align:center;line-height:65px;border-bottom:1px solid #d9d9d9}.confirm-box-wrapper .confirm-box .body{padding:18px;padding-bottom:0;color:#353535;font-size:12.5px;max-height:150px;overflow:auto}.confirm-box-wrapper .confirm-box .foot{display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;padding:18px}.confirm-box-wrapper .confirm-box .foot .button-cancel{border:1px solid #d9d9d9}.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
+
+
+
+
+    </style>
+    <style type="text/css">
+        .button-cancel[data-v-87ffcada]{color:#888;border:1px solid #888;border-radius:3px;margin-right:12px}.button-cancel[data-v-87ffcada],.button-primary[data-v-87ffcada]{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;height:35px;display:inline-block;font-size:15px;text-align:center;line-height:36px}.button-primary[data-v-87ffcada]{color:#fff;background-color:#ff5a05;border-radius:3px}.pd[data-v-87ffcada]{padding-left:1.375rem;padding-right:1.375rem}.article[data-v-87ffcada]{max-width:70rem;margin:0 auto}.article .article-unavailable[data-v-87ffcada]{color:#fa8919;font-size:15px;font-weight:600;line-height:24px;border-radius:5px;padding:12px;background-color:#f6f7fb;margin-top:20px}.article .article-unavailable .iconfont[data-v-87ffcada]{font-size:12px}.article .main[data-v-87ffcada]{padding:1.25rem 0;margin-bottom:52px}.article-title[data-v-87ffcada]{color:#353535;font-weight:400;line-height:1.65rem;font-size:1.34375rem}.article-info[data-v-87ffcada]{color:#888;font-size:.9375rem;margin-top:1.0625rem}.article-content[data-v-87ffcada]{margin-top:1.0625rem}.article-content.android video[data-v-87ffcada]::-webkit-media-controls-fullscreen-button{display:none}.copyright[data-v-87ffcada]{color:#b2b2b2;padding-bottom:20px;margin-top:20px;font-size:13px}.audio-player[data-v-87ffcada]{width:100%;margin:20px 0}.to-comment[data-v-87ffcada]{overflow:hidden;padding-top:10px;margin-bottom:-30px}.to-comment a.button-primary[data-v-87ffcada]{float:right;height:20px;font-size:12px;line-height:20px;padding:4px 8px;cursor:pointer}.article-comments[data-v-87ffcada]{margin-top:2rem}.article-comments h2[data-v-87ffcada]{text-align:center;color:#888;position:relative;z-index:1;margin-bottom:1rem}.article-comments h2[data-v-87ffcada]:before{border-top:1px dotted #888;content:"";position:absolute;top:56%;left:0;width:100%;z-index:-1}.article-comments h2 span[data-v-87ffcada]{font-size:15.25px;font-weight:400;padding:0 1rem;background:#fff;display:inline-block}.article-sub-bottom[data-v-87ffcada]{z-index:10;cursor:pointer}.switch-btns[data-v-87ffcada]{height:76px;cursor:pointer;padding-top:24px;padding-bottom:24px;border-bottom:10px solid #f6f7fb;position:relative}.switch-btns[data-v-87ffcada]:before{content:" ";height:1px;background:#e8e8e8;position:absolute;top:0;left:0;-webkit-box-sizing:border-box;box-sizing:border-box;left:1.375rem;right:1.375rem}.switch-btns .btn[data-v-87ffcada]{height:38px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.switch-btns .btn .tag[data-v-87ffcada]{-webkit-box-flex:0;-ms-flex:0 0 62px;flex:0 0 62px;text-align:center;color:#888;font-size:14px;border-radius:10px;height:22px;line-height:22px;background:#f6f7fb;font-weight:400}.switch-btns .btn .txt[data-v-87ffcada]{margin-left:10px;-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;color:#888;font-size:15px;height:22px;line-height:22px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:400}@media (max-width:769px){.article .breadcrumb[data-v-87ffcada]{padding-top:10px;padding-bottom:10px}}
+
+
+
+
+
+    </style>
+
+    <style type="text/css">
+        .comment-item{list-style-position:inside;width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;margin-bottom:1rem}.comment-item a{border-bottom:none}.comment-item .avatar{width:2.625rem;height:2.625rem;-ms-flex-negative:0;flex-shrink:0;border-radius:50%}.comment-item .info{margin-left:.5rem;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.comment-item .info .hd{width:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .username{color:#888;font-size:15.25px;font-weight:400;line-height:1.2}.comment-item .info .hd .control{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.comment-item .info .hd .control .btn-share{color:#888;font-size:.75rem;margin-right:1rem}.comment-item .info .hd .control .btn-praise{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:15.25px;text-decoration:none}.comment-item .info .hd .control .btn-praise i{color:#888;display:inline-block;font-size:.75rem;margin-right:.3rem;margin-top:-.01rem}.comment-item .info .hd .control .btn-praise i.on,.comment-item .info .hd .control .btn-praise span{color:#ff5a05}.comment-item .info .bd{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6}.comment-item .info .time{color:#888;font-size:9px;line-height:1}.comment-item .info .reply .reply-hd{font-size:15.25px}.comment-item .info .reply .reply-hd span{margin-left:-12px;color:#888;font-weight:400}.comment-item .info .reply .reply-hd i{color:#ff5a05;font-size:15.25px}.comment-item .info .reply .reply-content{color:#353535;font-size:15.25px;font-weight:400;white-space:normal;word-break:break-all}.comment-item .info .reply .reply-time{color:#888;font-size:9px}
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="app">
+
+
+    <div data-v-87ffcada="" class="article" id="watermark">
+        <p class="x">所有最新极客时间课程请加QQ1046877154</p>
+        <div data-v-87ffcada="" class="main main-app">
+            <h1 data-v-87ffcada="" class="article-title pd">
+                第21讲讲绩效管理的目标不仅仅是绩效考核
+            </h1>
+            <div data-v-87ffcada="" class="article-content typo common-content pd"><img data-v-87ffcada=""
+                                                                                        src="https://static001.geekbang.org/resource/image/8f/e0/8fa98a29605a5a2848a18e24e87f8fe0.jpg">
+
+
+                <div data-v-87ffcada="" id="article-content" class="">
+                    <div class="text">
+                        <p>我们经常讨论绩效考核这个话题，有不少人为如何考核程序员产出这件事烦恼。我旗帜鲜明的提出观点，绩效考核只是绩效管理的一环，如果抛弃绩效管理谈绩效考核，无异于舍本逐末。本文尝试聊几个大家关心的话题：绩效考核有哪些痛与伤、绩效管理与绩效考核的关系、目标与KPI、OKR的关系等。</p>
+<h2>绩效考核有哪些痛与伤</h2>
+<p>我们先回顾一下绩效考核都有哪些常见问题。</p>
+<p>第一类问题，我们姑且称为”工作量考核”。顾名思义，工作量考核的关键点在于工作量评估。工作量评估，又会绕到一些常见的问题：</p>
+<p><span class="orange">Java开发工程师的工作产出如何衡量？</span></p>
+<p><span class="orange">前端工程师的工作产出如何衡量？</span></p>
+<p><span class="orange">产品经理的产出如何衡量？</span></p>
+<p><span class="orange">DBA的工作产出如何衡量？</span></p>
+<p>有人提到过代码行评估，但代码行评估其实在业界的争议非常大。代码行多是绝对代表产出更好吗？不同语言之间对比代码行也是一个有点滑稽的事情。</p>
+<p>第二类是绩效考核，可以称之为”全面指标考核”。全面指标考核可以说在”考核”本身这件事上已经做得足够了，一般会关注多个维度的评估以保障全面性。我曾在一家电信业务的IT公司做部门经理，当时公司是采用平衡计分卡来做绩效考核。</p>
+<p>平衡计分卡是从财务、客户、内部运营、学习与成长四个角度，将组织的战略落实为可操作的衡量指标和目标值的一种新型绩效管理体系。我后来反思，绩效目标要突出拉动力，而不是面面俱到。否则很容易导致全面指标考核在实操过程中走向失败，绩效考核的维度和实际运营维度不match。</p>
+<p>我们再看一个例子。在项目研发中往往以研发过程数据、业务结果、公司制度（比如考勤）、主管主观评价等构成程序员的绩效考核体系。如下图所示，示例了一个绩效考核的指标体系。</p>
+<p><img src="https://static001.geekbang.org/resource/image/e7/fe/e718b157f0192fcaf5dabd5f7d292dfe.png" alt="" /></p>
+<p>业务结果、研发过程、制度考勤、主观评价4个维度有对应的权重，来体现不同的岗位角色和各项指标的关联紧密程度。比如，活跃用户数超出预期，研发人员自然是有贡献，但产品和运营所起到的作用更是重要。我认为，研发过程的指标应该作为观测指标，真正的考核指标是业务在线上运营的故障和缺陷，以及研发人员对于需求响应、客户服务方面的满意度。由外而内，避免自嗨。</p>
+<p>绩效考核还有一类问题，出在绩效指标设定上。绩效指标要和组织目标对齐，不要为了设置而设置。我们来看一个例子。某测试同学的绩效指标设定：1：所负责的模块无线上缺陷；2：辅导应届生进行功能测试；3：完成一次性能测试。</p>
+<p>到考核季的前一个月，这位同学发现我的第三个指标(完成一次性能测试)还没做呢？于是急急忙忙去做了。当主管评估该同学绩效指标的时候，发现所有指标都完成了，包括性能测试的指标。但这个指标是不是当下最重要紧急的，甚至这个个人绩效指标跟项目目标、团队目标没有强关联。目标没有对齐的危害，可能是树木和森林没有很好的对应，甚至可能南辕北辙。</p>
+<p>通过这个case可以思考一个问题，绩效目标设定和所属团队目标的关系，以及和上级组织目标的关系。</p>
+<p>我们跳过绩效考核应该如何做，先回头来看看绩效管理是怎么回事。</p>
+<h2>绩效管理闭环</h2>
+<p>有个专家叫戴明，他发明了一个快速反馈的工具叫戴明环，又称为PDCA环。PDCA环实际是美国质量管理专家休哈特博士首先提出的，由戴明采纳、宣传，获得普及。PDCA循环的含义是将质量管理分为四个阶段，即计划（plan）、执行（do）、检查（check）、行动（Action）。</p>
+<p>绩效管理其实质也是一个PDCA循环。</p>
+<p>第一步是目标设定。目标来自于哪里？技术团队的目标一定是来自于业务。我经常讲不服务业务的技术都是耍流氓。阿里巴巴CTO行癫也有句话，所谓的工程师文化就是”让好技术驱动业务腾飞”。比如一个业务负责人把一款app(如极客时间)的目标设定为：</p>
+<p><span class="orange">活跃用户数达到10万</span></p>
+<p><span class="orange">单品专栏成交量超过20000</span></p>
+<p>按照增长黑客的思路，引新、留存、促活、转化这些套路都会用起来，那么对于技术平台就可能有一些对应的技术指标。比如：</p>
+<p><span class="orange">App7*24小时可用（实际上可以放宽一点，深夜4点还在学习的用户极少）</span></p>
+<p><span class="orange">App稳定性(安装包大小、启动时间、崩溃率、App耗电等)</span></p>
+<p><span class="orange">易于分享和传播（比如分享步骤不超过3步，过于复杂会让用户失去兴趣，当然还可以通过返利一定程度上平衡）</span></p>
+<p>第二步是设置计划，亦即是PDCA环中的P(Plan)。设置计划来自于目标的分解。比如：</p>
+<p><span class="orange">8.31完成A业务线的全部业务接入</span></p>
+<p><span class="orange">9.30完成B业务线的全部业务接入</span></p>
+<p><span class="orange">10.31完成C业务线的全部业务接入</span></p>
+<p>第三步是执行 (Do)，执行过程中进度风险、人员流失、技能不够、需求变更频繁等风险都有可能存在，甚至是不止一个因素同时发生。那么我们要做好的就是缩短反馈环，解决问题。每日立会、缩短迭代发布频度等有助于掌握项目实际的风险和完成状况。参与项目的同学，项目整体目标与个人目标息息相关，可以通过主动反馈主管来做阶段性检查(check)对齐。</p>
+<p>第四步是检查（Check）。对于个人而言，日常过程中的绩效管理尤其重要，及时发现偏差，及时清晰的沟通，落地有效的改进计划或方式。同时如果涉及绩效目标的变更，也要及时沟通调整。</p>
+<p>第五步是给出Action。根据check结果给出Action帮助目标进行改进。同时进入到新的PDCA循环。</p>
+<p>由此可见，绩效管理是一个闭环过程，而绩效考核是其中一个阶段。如果等到考核期才发现问题就晚了，应该保持按周、月、季做check有利于早发现、早纠正。</p>
+<!-- [[[read_end]]] -->
+<h2>目标与KPI、OKR的关系</h2>
+<p>首先辨识一些基本概念。</p>
+<p>什么是目标？目标是要去的方向，并且转换为可衡量的数据指标。目标不是孤立存在的。</p>
+<p>KPI(Key Performance Indicator)是关键绩效指标，来自自上而下的分解。各部门的主管需要依据企业级KPI建立部门级KPI，并对相应部门的KPI进行分解，确定相关的要素目标。KPI的好处就是分解清晰，力出一孔。</p>
+<p>OKR（Objectives and Key Results）即目标与关键成果法，是一套明确和跟踪目标及其完成情况的管理工具和方法，主要目标是明确公司和团队的“目标”以及明确每个目标达成的可衡量的“关键结果”。OKR 首先确定 O(Objectives)，然后从 O 分解出 KR(Key Results)，然后用 KPI 或者 Milestone 的形式来表示 KR。</p>
+<p>有论者批评唯KPI论，一切都是KPI惹的祸。我觉得关键的问题不是出在KPI，而是出在KPI的制定者，或者是KPI的执行者。KPI顾名思义，是关键绩效指标，指标不等于目标，所以KPI应该在目标的指导下工作。</p>
+<p>举例来讲，在2011年的时候，我们大团队曾经做了一个产品叫悬赏交易，如果我没记错的话，大概业务指标是做100万笔交易。热心的运营同学想了各种办法来完成这100万笔，包括给旺旺用户推送消息，然后跳转到对应页面，获得一个赠送的商品，默认点击则完成一笔交易。我认为这样的KPI在执行层面是有害的，设定KPI背后的why是什么？是让这个产品被用户知道，让用户愿意来使用，有用户留存。如果用户在引流过来对产品毫无感知，单纯完成的交易并不能说明什么问题。总结来说，KPI没有错，在使用KPI的时候，要了解背后的why，要了解我们要去的方向在哪里，目标在哪里。在灯塔的照耀下，KPI就能被合理的应用于考核。</p>
+<p>有时候方向对了，KPI设定错了，还可以走一段之后去调整它，所谓“不忘初心”，在行进途中别忘了，我们为什么出发？而OKR的美丽在于，对于目标提出了可度量的关键结果。所以无论KPI还是OKR都需要强目标驱动，单纯谈KPI，可能会丢掉目标和初心。</p>
+<p>我们参考一下吴军老师2017年初给自己设定的OKR，下面仅引用目标1。</p>
+<p><span class="orange">目标1. </span>完成《数学之美》的英文版和韩文版，《大学之路》第二版</p>
+<p><span class="orange">关键结果1.1 </span> 找到英文版的出版商 ；（1.0，已经签了合同）</p>
+<p><span class="orange">关键结果1.2 </span> 寻找合适的、母语是英语的合作者，修改英文版的书稿 ；（0.3，试了两个翻译者，都不满意，在联系第三个翻译者，让她试着翻译一章。）</p>
+<p><span class="orange">关键结果1.3  </span>完成英文版的写作；（0.1，因为翻译者还没有找到，因此我自己翻译了一章、前言、目录，以后要由翻译者做）</p>
+<p>而我在工作中，习惯了增强KPI的设置模式，这个模式里面有关键绩效指标, 但关键绩效指标仅仅是一个评估结果。于是又增加了过程关键指标。过程关键指标如同温度计，它不是用于惩罚和制裁。而是去发现可能的异常，通过高频快速的反馈促进团队和个人改进，以便于满足阶段性KPI的达成。下面就提供一个设置增强性KPI的示例。</p>
+<p><span class="orange">夯实底盘（稳定性、资金风险）：</span>通过XXX手段加强事前、事中、事后的风险防控。</p>
+<p>【衡量标准】：</p>
+<p><span class="orange">最终结果：</span></p>
+<p>无重大故障</p>
+<p>无P1级故障</p>
+<p>线上总故障数&lt;=5</p>
+<p><span class="orange">过程关键指标：</span></p>
+<p>线下缺陷，缺陷密度、紧急发布等作为观察指标(详细指标此处省略)</p>
+<p>应急体系：（衡量指标：变更导致线上的问题的发现时效、主动发现线上问题比例等）</p>
+<p>业务分钟级异动感知， 5分钟内止血消除影响。</p>
+<p><span class="orange">加分项：</span></p>
+<p>1：创新解决问题方案，有案例支撑并具备跨子域或者更大范围的推广价值。</p>
+<p>2：在问题的解决过程中追求极致，有典型案例支撑。</p>
+<p>大家可以思考一下，如果把上面的例子修改为OKR应该如何做？我认为KPI本身并不low，关键在使用这个工具的人。在使用KPI的时候要紧扣目标，绩效管理闭环有助于产出的改进。OKR创造性的提出了Key Results，但也要防止Key Results陷阱。随着公司业务发展和规模扩大，越来越多的团队面临的是不确定性问题域，很可能3个Key Results结果都很好，但关键目标并未达成。</p>
+<h2>结语</h2>
+<p>绩效管理的目标不仅仅是绩效考核，绩效考核只是绩效管理PDCA的其中一环。考核的目的是为了改进，而不仅仅是做一个评价。技术团队设定目标的方向非常重要，目标应该来自于组织目标分解，同时为了保有创新和自主性，组织目标不宜确定过细、让团队拥有一些创造性解决key result的机会。KPI是关键绩效指标，关键绩效指标要在目标的作用下工作。OKR在目标的基础上分解出关键结果，有利于目标的过程跟踪。</p>
+<p><em><strong>作者简介</strong></em></p>
+<p>于君泽，蚂蚁金服资金运营技术部负责人，<a href="http://url">TGO鲲鹏会成都分会会员</a>。从业超过16年，业务领域兴趣在支付、金融风险、监管科技。同时经常就高可用分布式架构、研发管理、内建质量等发表观点。维护公众号：技术琐话。著有《深入分布式缓存》一书。</p>
+<p><img src="https://static001.geekbang.org/resource/image/a8/e1/a84e2a58b232f5dfc55ac79aff07c2e1.jpg" alt="" /></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div data-v-87ffcada="" class="article-comments pd"><h2 data-v-87ffcada=""><span
+                    data-v-87ffcada="">精选留言</span></h2>
+                <ul data-v-87ffcada="">
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/0f/f5/1f/577265ea.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">少帅</span>
+                            </div>
+                            <div class="bd">KPI是手段，没有问题，变质在于人心，偏离了初衷 <br></div>
+                            <span class="time">2018-05-21 08:57</span>
+                            
+                        </div>
+                    </li>
+                    
+                    <li data-v-87ffcada="" class="comment-item"><img
+                            src="https://static001.geekbang.org/account/avatar/00/10/24/e8/4e09b90f.jpg" class="avatar">
+                        <div class="info">
+                            <div class="hd"><span class="username">谢军</span>
+                            </div>
+                            <div class="bd">在管理工作中，我特别希望下面的员工能够拥有子驱力，并且能够从产品公司的角度去解决思考问题，但一直没有什么好的方案，后面了解到了okr，事实上就是我们把公司阶段目标和方向和部门中的人都做了传达，大家知道公司现在要做些什么，然后才知道自己做的事哪些是最重要的，优先级最高的，这时候他就拥有了独立思考自己驱动自己完成工作的能力了 <br></div>
+                            <span class="time">2018-06-14 15:22</span>
+                            
+                        </div>
+                    </li>
+                    
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
